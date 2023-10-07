@@ -550,6 +550,24 @@ progress {
 }
 
 
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 .btn {
   padding: 17px 40px;
   background: #009FE3;
@@ -560,7 +578,6 @@ progress {
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
-  letter-spacing: -0.32px;
   border-radius: 16px;
   transition: 0.4s all;
 }
