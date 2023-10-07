@@ -1,0 +1,18 @@
+
+.btn {
+  padding: 17px 40px;
+  background: $interface;
+  border: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.32px;
+  border-radius: 16px;
+  transition: 0.4s all;
+  &:hover {
+    background: $interface-hover;
+  }
+}
