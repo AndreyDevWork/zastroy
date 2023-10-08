@@ -1,0 +1,15 @@
+.input {
+  width: 100%;
+  height: 50px;
+  border-radius: 16px;
+  border: 1px solid #E0E5F2;
+  background: #FFF;
+  outline: none;
+  padding: 0 24px 0 24px;
+  &::placeholder {
+    color: $text-gray;
+  }
+  &__required {
+    color: #FF5353;
+  }
+}

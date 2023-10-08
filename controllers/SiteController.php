@@ -77,7 +77,9 @@ class SiteController extends Controller
      */
     public function actionLogin()
     {
+        $baseUrl = \Yii::$app->request->baseUrl;
         $this->layout = 'login';
+
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
@@ -89,7 +91,7 @@ class SiteController extends Controller
 
         $model->password = '';
         return $this->render('login', [
-            'model' => $model,
+            'model' => $model, 'baseUrl' => $baseUrl
         ]);
     }
 
