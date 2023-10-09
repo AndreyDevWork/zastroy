@@ -1,0 +1,21 @@
+.aside {
+  width: 290px;
+  height: 100vh;
+  background: #FFF;
+  position: absolute;
+  padding: 32px;
+  top: 0;
+  display: inline-block;
+  border-right: 1px solid black;
+  &__logo {
+    margin: auto;
+  }
+  &__menu {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    row-gap: 24px;
+    flex-direction: column;
+    margin-top: 67px;
+  }
+}

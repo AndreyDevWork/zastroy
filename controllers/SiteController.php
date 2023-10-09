@@ -136,6 +136,13 @@ class SiteController extends Controller
     }
     public function actionAdmin()
     {
-        return $this->render('admin');
+        $baseUrl = \Yii::$app->request->baseUrl;
+        return $this->render('admin', ['baseUrl' => $baseUrl]);
+    }
+    public function actionSales()
+    {
+        $this->layout = 'left-side';
+        $baseUrl = \Yii::$app->request->baseUrl;
+        return $this->render('sales', ['baseUrl' => $baseUrl]);
     }
 }

@@ -1,0 +1,45 @@
+.admin {
+  background: $background;
+  height: calc(100vh - 100px);
+  &__container {
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    width: 1500px;
+    margin: auto;
+    padding-top: 32px;
+    column-gap: 20px;
+    padding-left: 0px;
+  }
+  &__card {
+    aspect-ratio: 284/186;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 2px 4px 23px 0px rgba(0, 0, 0, 0.05);
+    list-style-type: none;
+  }
+  &__link {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: $black;
+    padding: 35px 45px 39px 45px;
+    &:hover {
+      text-decoration: none;
+      color: $black;
+    }
+
+  }
+  &__icon {
+    width: 78px;
+    height: 78px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__name {
+    margin-top: 12px;
+  }
+}
