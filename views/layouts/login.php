@@ -3,8 +3,10 @@
 /** @var string $content */
 
 use app\assets\AppAsset;
+use app\assets\AppScriptsLogin;
 
 AppAsset::register($this);
+AppScriptsLogin::register($this)
 
 ?>
 

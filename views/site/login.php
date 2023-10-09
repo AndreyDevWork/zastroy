@@ -28,9 +28,16 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ]); ?>
 
-        <?= $form->field($model, 'username')->textInput(['autofocus' => true, 'placeholder' => 'mail@simmmple.com'])->label('Email<span class="input__required">*</span>') ?>
+        <div class="login__input">
+            <?= $form->field($model, 'username')->textInput(['autofocus' => true, 'placeholder' => 'mail@simmmple.com'])->label('Email<span class="input__required">*</span>') ?>
+        </div>
 
-        <?= $form->field($model, 'password')->passwordInput()->label('Пароль<span class="input__required">*</span>') ?>
+        <div class="login__input">
+            <?= $form->field($model, 'password')->passwordInput()->label('Пароль<span class="input__required">*</span>') ?>
+            <div class="login__eye">
+                <img src="<?= $baseUrl ?>/img/icon-svg/eye.svg" alt="eye" class="object-fit">
+            </div>
+        </div>
 
         <?= $form->field($model, 'rememberMe')->checkbox([
             'template' => "<div class=\"custom-control custom-checkbox\">{input} {label}</div>\n<div class=\"col-lg-8\">{error}</div>",
