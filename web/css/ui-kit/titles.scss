@@ -1,6 +1,8 @@
 .mb-none {
   margin-bottom: 0;
 }
+
+
 .regular {
   font-weight: 400;
 }
@@ -10,6 +12,9 @@
 .bold {
   font-weight: 700;
 }
+
+
+
 
 .title34 {
   color: $header-title;
@@ -31,4 +36,11 @@
   font-style: normal;
   font-weight: 500;
   line-height: 100%;
+}
+.title12 {
+  color: $gray-hard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
 }

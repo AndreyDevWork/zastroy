@@ -22,6 +22,7 @@
 
   &__interface {
     width: 50%;
+    max-width: 450px;
     margin: auto;
   }
   &__title {
@@ -43,14 +44,37 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 50px;
+    top: 53px;
     right: 13px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
   }
+  &__span {
+    background: #A3AED0;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    border-radius: 10px;
+    transform: rotate(-30deg);
+  }
+  &__span_active {
+    width: 100%;
+  }
+  &__btn {
+    width: 100%;
+    margin-top: 23px;
+  }
+
+
 
 
 
   input {
     margin-top: 13px;
+  }
+  .custom-checkbox {
+    display: flex;
+    align-items: end;
   }
 }

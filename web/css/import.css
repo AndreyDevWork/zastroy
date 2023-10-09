@@ -639,7 +639,15 @@ h1 {
   line-height: 100%;
 }
 
-.input {
+.title12 {
+  color: #64748B;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.mb-3 .input {
   width: 100%;
   height: 50px;
   border-radius: 16px;
@@ -647,12 +655,16 @@ h1 {
   background: #FFF;
   outline: none;
   padding: 0 24px 0 24px;
+  transition: 0.4s all;
 }
-.input::placeholder {
+.mb-3 .input::placeholder {
   color: #A3AED0;
 }
-.input__required {
+.mb-3 .input__required {
   color: #FF5353;
+}
+.mb-3 .is-invalid {
+  border: 1px solid #FF5353;
 }
 
 .login {
@@ -678,6 +690,7 @@ h1 {
 }
 .login__interface {
   width: 50%;
+  max-width: 450px;
   margin: auto;
 }
 .login__title {
@@ -697,12 +710,33 @@ h1 {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 50px;
+  top: 53px;
   right: 13px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.login__span {
+  background: #A3AED0;
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  border-radius: 10px;
+  transform: rotate(-30deg);
+}
+.login__span_active {
+  width: 100%;
+}
+.login__btn {
+  width: 100%;
+  margin-top: 23px;
 }
 .login input {
   margin-top: 13px;
+}
+.login .custom-checkbox {
+  display: flex;
+  align-items: end;
 }
 
 /*# sourceMappingURL=import.css.map */

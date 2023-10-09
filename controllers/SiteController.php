@@ -134,4 +134,8 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    public function actionAdmin()
+    {
+        return $this->render('admin');
+    }
 }

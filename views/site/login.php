@@ -35,17 +35,19 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="login__input">
             <?= $form->field($model, 'password')->passwordInput()->label('Пароль<span class="input__required">*</span>') ?>
             <div class="login__eye">
+                <span class="login__span"></span>
                 <img src="<?= $baseUrl ?>/img/icon-svg/eye.svg" alt="eye" class="object-fit">
             </div>
         </div>
-
+        <div class="title12">! латинские буквы и цифры (минимум одна). Всего 10 символов</div>
         <?= $form->field($model, 'rememberMe')->checkbox([
-            'template' => "<div class=\"custom-control custom-checkbox\">{input} {label}</div>\n<div class=\"col-lg-8\">{error}</div>",
-        ]) ?>
+            'template' => "<div class=\"custom-control custom-checkbox\">{input} {label}</div>\n<div class=\"col-lg-8\">{error}</div>", 'labelOptions' => ['class' => 'title14']
+        ])->label('Запомнить меня')
+        ?>
 
         <div class="form-group">
             <div>
-                <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
+                <?= Html::submitButton('Войти', ['class' => 'btn login__btn', 'name' => 'login-button']) ?>
             </div>
         </div>
 
