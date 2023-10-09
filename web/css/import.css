@@ -580,10 +580,6 @@ body {
   overflow: hidden;
 }
 
-a {
-  color: red;
-}
-
 .navbar-expand-md {
   opacity: 0.3;
 }
@@ -855,13 +851,15 @@ title18 {
   height: 100vh;
   background: #FFF;
   position: absolute;
-  padding: 32px;
+  padding: 32px 0;
   top: 0;
   display: inline-block;
   border-right: 1px solid black;
 }
 .aside__logo {
   margin: auto;
+  width: 196px;
+  height: 72px;
 }
 .aside__menu {
   padding-left: 0;
@@ -870,6 +868,19 @@ title18 {
   row-gap: 24px;
   flex-direction: column;
   margin-top: 67px;
+  padding-left: 32px;
+}
+.aside__link {
+  display: flex;
+}
+.aside__icon {
+  width: 24px;
+  display: flex;
+  align-items: center;
+}
+.aside__svg {
+  width: 24px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=import.css.map */

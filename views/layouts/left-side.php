@@ -86,24 +86,40 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             <a href="#">
                 <img src="<?= $baseUrl ?>/img/login/logo.svg" alt="logo" class="object-fit">
             </a>
-            <ul class="aside__menu">
-                <li class="aside__item">
-                    <a href="#" class="aside__link">Отчеты по продажам</a>
-                </li>
-                <li class="aside__item">
-                    <a href="#" class="aside__link">Заявки</a>
-                </li>
-                <li class="aside__item">
-                    <a href="#" class="aside__link">Каталог</a>
-                </li>
-                <li class="aside__item">
-                    <a href="#" class="aside__link">Руководители</a>
-                </li>
-                <li class="aside__item">
-                    <a href="#" class="aside__link">Менеджеры</a>
-                </li>
-            </ul>
         </div>
+        <ul class="aside__menu">
+            <li class="aside__item">
+                <a href="#" class="title16 aside__link">
+                    <div class="aside__icon"><img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/sales.svg" alt="icon"></div>
+                    <span>Отчеты по продажам</span>
+                </a>
+            </li>
+            <li class="aside__item">
+
+                <a href="#" class="title16 aside__link">
+                    <div class="aside__icon"><img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/request.svg" alt="icon"></div>
+                    <span>Заявки</span>
+                </a>
+            </li>
+            <li class="aside__item">
+                <a href="#" class="title16 aside__link">
+                    <div class="aside__icon"><img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/catalog.svg" alt="icon"></div>
+                    <span>Каталог</span>
+                </a>
+            </li>
+            <li class="aside__item">
+                <a href="#" class="title16 aside__link">
+                    <div class="aside__icon"><img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/leader.svg" alt="icon"></div>
+                    <span>Руководители</span>
+                </a>
+            </li>
+            <li class="aside__item">
+                <a href="#" class="title16 aside__link">
+                    <img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/menegers.svg" alt="icon">
+                    <span>Менеджеры</span>
+                </a>
+            </li>
+        </ul>
     </aside>
 
     <?php $this->beginBody() ?>
