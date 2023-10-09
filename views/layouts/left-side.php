@@ -90,33 +90,49 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         <ul class="aside__menu">
             <li class="aside__item">
                 <a href="#" class="title16 aside__link">
-                    <div class="aside__icon"><img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/sales.svg" alt="icon"></div>
-                    <span>Отчеты по продажам</span>
+                    <div class="aside__icon">
+                        <img class="aside__svg aside__svg_active" src="<?= $baseUrl ?>/img/icon-svg/cards/sales.svg" alt="icon">
+                        <img class="aside__svg aside__svg-gray aside__svg_none" src="<?= $baseUrl ?>/img/icon-svg/cards/gray-sales.svg" alt="icon">
+                    </div>
+                    <span class="aside__span header-title">Отчеты по продажам</span>
                 </a>
+                <div class="aside__active"></div>
             </li>
             <li class="aside__item">
 
                 <a href="#" class="title16 aside__link">
-                    <div class="aside__icon"><img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/request.svg" alt="icon"></div>
-                    <span>Заявки</span>
+                    <div class="aside__icon">
+                        <img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/request.svg" alt="icon">
+                        <img class="aside__svg aside__svg-gray aside__svg_active" src="<?= $baseUrl ?>/img/icon-svg/cards/gray-request.svg" alt="icon">
+                    </div>
+                    <span class="aside__span">Заявки</span>
                 </a>
             </li>
             <li class="aside__item">
                 <a href="#" class="title16 aside__link">
-                    <div class="aside__icon"><img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/catalog.svg" alt="icon"></div>
-                    <span>Каталог</span>
+                    <div class="aside__icon">
+                        <img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/catalog.svg" alt="icon">
+                        <img class="aside__svg  aside__svg-gray aside__svg_active" src="<?= $baseUrl ?>/img/icon-svg/cards/gray-catalog.svg" alt="icon">
+                    </div>
+                    <span class="aside__span">Каталог</span>
                 </a>
             </li>
             <li class="aside__item">
                 <a href="#" class="title16 aside__link">
-                    <div class="aside__icon"><img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/leader.svg" alt="icon"></div>
-                    <span>Руководители</span>
+                    <div class="aside__icon">
+                        <img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/leader.svg" alt="icon">
+                        <img class="aside__svg aside__svg-gray aside__svg_active" src="<?= $baseUrl ?>/img/icon-svg/cards/gray-leader.svg" alt="icon">
+                    </div>
+                    <span class="aside__span">Руководители</span>
                 </a>
             </li>
             <li class="aside__item">
                 <a href="#" class="title16 aside__link">
-                    <img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/menegers.svg" alt="icon">
-                    <span>Менеджеры</span>
+                    <div class="aside__icon">
+                        <img class="aside__svg" src="<?= $baseUrl ?>/img/icon-svg/cards/menegers.svg" alt="icon">
+                        <img class="aside__svg aside__svg-gray aside__svg_active" src="<?= $baseUrl ?>/img/icon-svg/cards/gray-menegers.svg" alt="icon">
+                    </div>
+                    <span class="aside__span">Менеджеры</span>
                 </a>
             </li>
         </ul>

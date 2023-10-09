@@ -572,12 +572,16 @@ progress {
   font-family: DM Sans;
 }
 
-h1 {
-  color: #2B3674;
-}
-
 body {
   overflow: hidden;
+  min-height: 100%;
+}
+
+body h1 {
+  color: #2B3674;
+}
+body a {
+  text-decoration: none;
 }
 
 .navbar-expand-md {
@@ -661,6 +665,10 @@ title18 {
 
 .bold {
   font-weight: 700;
+}
+
+.header-title {
+  color: #2B3674;
 }
 
 .mb-3 .input {
@@ -853,8 +861,6 @@ title18 {
   position: absolute;
   padding: 32px 0;
   top: 0;
-  display: inline-block;
-  border-right: 1px solid black;
 }
 .aside__logo {
   margin: auto;
@@ -872,6 +878,11 @@ title18 {
 }
 .aside__link {
   display: flex;
+  column-gap: 13px;
+}
+.aside__item {
+  display: flex;
+  justify-content: space-between;
 }
 .aside__icon {
   width: 24px;
@@ -881,6 +892,29 @@ title18 {
 .aside__svg {
   width: 24px;
   object-fit: cover;
+  display: none;
+}
+.aside__active {
+  background: #009FE3;
+  border-radius: 25px;
+  height: 36px;
+  width: 4px;
+}
+.aside__span {
+  display: flex;
+  align-items: center;
+}
+.aside__svg_active {
+  display: block;
+}
+.aside__svg_none {
+  display: none;
+}
+
+.sales {
+  padding-left: 290px;
+  background: #F1F5F9;
+  height: calc(100vh - 100px);
 }
 
 /*# sourceMappingURL=import.css.map */

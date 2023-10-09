@@ -5,8 +5,6 @@
   position: absolute;
   padding: 32px 0;
   top: 0;
-  display: inline-block;
-  border-right: 1px solid black;
   &__logo {
     margin: auto;
     width: 196px;
@@ -24,6 +22,11 @@
   }
   &__link {
     display: flex;
+    column-gap: 13px;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
   }
   &__icon {
     width: 24px;
@@ -33,5 +36,22 @@
   &__svg {
     width: 24px;
     object-fit: cover;
+    display: none;
+  }
+  &__active {
+    background: $interface;
+    border-radius: 25px;
+    height: 36px;
+    width: 4px;
+  }
+  &__span {
+    display: flex;
+    align-items: center;
+  }
+  &__svg_active {
+    display: block;
+  }
+  &__svg_none {
+    display: none;
   }
 }

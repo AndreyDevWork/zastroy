@@ -1,15 +1,19 @@
 * {
   font-family: DM Sans;
 }
-h1  {
-  color: #2B3674;
-}
 body {
   overflow: hidden;
+  min-height: 100%;
 }
-//a {
-//  color: red;
-//}
+body {
+  h1  {
+    color: $header-title;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
 
 .navbar-expand-md {
   opacity: 0.3;
