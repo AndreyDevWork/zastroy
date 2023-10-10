@@ -1,10 +1,25 @@
-
+.title54 {
+  color: $header-title;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
 .title34 {
   color: $header-title;
   font-size: 34px;
   font-style: normal;
   font-weight: 700;
   line-height: 42px;
+  margin-bottom: 0;
+}
+.title22 {
+  color: $header-title;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
 }
 .title16 {
   color: $text-gray;
@@ -12,6 +27,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
+  margin-bottom: 0;
 }
 .title14 {
   color: $header-title;
@@ -19,6 +35,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 100%;
+  margin-bottom: 0;
 }
 .title12 {
   color: $gray-hard;
@@ -26,13 +43,15 @@
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+  margin-bottom: 0;
 }
-title18 {
+.title18 {
   color: $black;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  margin-bottom: 0;
 }
 
 
@@ -55,3 +74,13 @@ title18 {
   color: $header-title;
 }
 
+
+
+
+@mixin title14 {
+  color: $header-title;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}

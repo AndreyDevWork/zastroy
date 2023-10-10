@@ -14,6 +14,9 @@
     &__required {
       color: $attention;
     }
+    &:focus {
+      border: 1px solid $header-title;
+    }
   }
   .is-invalid {
     border: 1px solid $attention;

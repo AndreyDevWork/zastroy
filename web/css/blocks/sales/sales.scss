@@ -2,4 +2,86 @@
   padding-left: 290px;
   background: $background;
   height: calc(100vh - 100px);
+  &__container {
+    padding: 33px 36px;
+  }
+  &__header {
+    margin-top: 5px;
+  }
+  &__selects {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+    max-width: 850px;
+    margin-top: 17px;
+    margin-bottom: 28px;
+  }
+  &__select {
+    width: 100%;
+  }
+  &__select-wrapper {
+    margin-top: 13px;
+    position: relative;
+  }
+  &__arrow {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__panel {
+    display: flex;
+    column-gap: 15px;
+  }
+  &__month {
+    color: $light-gray;
+  }
+  &__current {
+    margin-top: 14px;
+  }
+  &__quadro {
+    width: 540px;
+    display: flex;
+    justify-content: center;
+  }
+  &__report {
+    margin-top: 20px;
+    display: flex;
+  }
+  &__diagram {
+    height: 440px;
+    width: 440px;
+    border-radius: 100%;
+    transform: rotate(-50deg);
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  &__span {
+    width: 35px;
+    height: 16px;
+    border-radius: 7px;
+    margin-top: 4px;
+  }
+  &__item {
+    display: flex;
+    column-gap: 18px;
+  }
+  &__span1 {
+    background: $interface;
+  }
+  &__span2 {
+    background: $light-blue;
+  }
+  &__span3 {
+    background: $super-light-blue;
+  }
+  &__span4 {
+    background: $blue;
+  }
+
 }

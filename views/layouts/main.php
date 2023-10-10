@@ -46,6 +46,24 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         <div class="header__btn">
             <img src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="arrow-bottom">
         </div>
+        <div class="header__menu">
+            <div class="header__menu-item">
+                <?php
+                echo Nav::widget([
+                    'items' => [
+                        '<li>'
+                            . Html::beginForm(['/site/logout'])
+                            . Html::submitButton(
+                                'Выход <img src="../../../web/img/icon-svg/exit.svg" alt="arrow-bottom">',
+                                ['class' => 'title14 bold header__name header__logout']
+                            )
+                            . Html::endForm()
+                        . '</li>'
+                    ]
+                ]);
+                ?>
+            </div>
+        </div>
     </div>
 
     <?php

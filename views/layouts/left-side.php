@@ -29,7 +29,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>Login</title>
+        <title>Sales</title>
         <?php $this->head() ?>
     </head>
     <body>
@@ -49,6 +49,24 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             </div>
             <div class="header__btn">
                 <img src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="arrow-bottom">
+            </div>
+            <div class="header__menu">
+                <div class="header__menu-item">
+                    <?php
+                    echo Nav::widget([
+                        'items' => [
+                            '<li>'
+                            . Html::beginForm(['/site/logout'])
+                            . Html::submitButton(
+                                'Выход <img src="../../../web/img/icon-svg/exit.svg" alt="arrow-bottom">',
+                                ['class' => 'title14 bold header__name header__logout']
+                            )
+                            . Html::endForm()
+                            . '</li>'
+                        ]
+                    ]);
+                    ?>
+                </div>
             </div>
         </div>
 

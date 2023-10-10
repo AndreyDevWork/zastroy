@@ -1,0 +1,22 @@
+.breadcrumb li:not(:last-child):after {
+  content: ' /';
+}
+
+body {
+  .breadcrumb {
+    column-gap: 4px;
+    margin-bottom: 0;
+    li {
+      @include title14;
+      color: $beige;
+    }
+    a {
+      color: $beige;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.select {
+  border-radius: 16px;
+  border: 1px solid var(--secondary-grey-500, #E0E5F2);
+  background-color: #FFF;
+  padding: 17px 24px;
+  width: 100%;
+  outline: none;
+  appearance: none;
+  transition: 0.4s all;
+  color: $black;
+  &::after {
+    content: '';
+    background: url(../img/icon-svg/arrow-bottom.svg) no-repeat;
+  }
+  &:active {
+    border: 1px solid $interface;
+
+  }
+  &:focus {
+    border: 1px solid $interface;
+  }
+}

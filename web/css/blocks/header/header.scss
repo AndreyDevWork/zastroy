@@ -11,8 +11,42 @@
   &__profile {
     display: flex;
     justify-content: space-between;
-    max-width: 240px;
+    width: 195px;
     column-gap: 14px;
+    position: relative;
+  }
+  &__menu {
+    width: 195px;
+    position: absolute;
+    top: 50px;
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 2px 4px 23px 0px rgba(0, 0, 0, 0.05);
+    transition: .2s all;
+    padding: 14px 16px;
+
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none;
+    overflow: hidden;
+  }
+  &__menu-item {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav {
+      width: 100%;
+    }
+    li {
+      width: 100%;
+    }
+    .nav form {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
   }
   &__avatar {
     width: 40px;
@@ -36,5 +70,23 @@
   &__btn {
     display: flex;
     cursor: pointer;
+  }
+  &__logout {
+    background: #FFF;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+  }
+
+
+  &__menu_active {
+    height: auto;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: 1px solid #EBEBEB;
+    overflow: hidden;
   }
 }
