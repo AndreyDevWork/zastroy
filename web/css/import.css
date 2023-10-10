@@ -638,7 +638,16 @@ body a {
   line-height: 28px;
 }
 
-.title16 {
+.title18 {
+  color: #0E0E0E;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+s .title16 {
   color: #A3AED0;
   font-size: 16px;
   font-style: normal;
@@ -662,15 +671,6 @@ body a {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  margin-bottom: 0;
-}
-
-.title18 {
-  color: #0E0E0E;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
   margin-bottom: 0;
 }
 
@@ -781,6 +781,41 @@ body .breadcrumb a:hover {
   height: 100%;
   border-radius: 100%;
   transform: rotate(-50deg);
+}
+
+.diagram-info {
+  display: grid;
+  grid-template-columns: 45px auto;
+  grid-template-rows: auto auto;
+}
+.diagram-info__index {
+  grid-column: 1/3;
+  display: flex;
+  column-gap: 18px;
+  align-items: center;
+}
+.diagram-info__span {
+  width: 45px;
+  height: 16px;
+  border-radius: 7px;
+  display: block;
+}
+.diagram-info__span1 {
+  background: #009FE3;
+}
+.diagram-info__span2 {
+  background: #9AE1FF;
+}
+.diagram-info__span3 {
+  background: #D8F3FF;
+}
+.diagram-info__span4 {
+  background: #028DC8;
+}
+.diagram-info__number {
+  margin-top: 5px;
+  grid-column: 2/3;
+  padding-left: 18px;
 }
 
 .login {
@@ -1082,7 +1117,7 @@ body .breadcrumb a:hover {
 }
 .sales__panel {
   display: flex;
-  column-gap: 15px;
+  column-gap: 60px;
 }
 .sales__month {
   color: #9291A5;
@@ -1098,6 +1133,7 @@ body .breadcrumb a:hover {
 .sales__report {
   margin-top: 20px;
   display: flex;
+  column-gap: 126px;
 }
 .sales__diagram-wrapper {
   height: 440px;
@@ -1107,12 +1143,6 @@ body .breadcrumb a:hover {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
-}
-.sales__span {
-  width: 35px;
-  height: 16px;
-  border-radius: 7px;
-  margin-top: 4px;
 }
 .sales__item {
   display: flex;

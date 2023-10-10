@@ -1,0 +1,34 @@
+.diagram-info {
+  display: grid;
+  grid-template-columns: 45px auto;
+  grid-template-rows: auto auto;
+  &__index {
+    grid-column: 1/3;
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+  }
+  &__span {
+    width: 45px;
+    height: 16px;
+    border-radius: 7px;
+    display: block;
+  }
+  &__span1 {
+    background: $interface;
+  }
+  &__span2 {
+    background: $light-blue;
+  }
+  &__span3 {
+    background: $super-light-blue;
+  }
+  &__span4 {
+    background: $blue;
+  }
+  &__number {
+    margin-top: 5px;
+    grid-column: 2/3;
+    padding-left: 18px;
+  }
+}

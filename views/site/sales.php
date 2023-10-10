@@ -70,33 +70,33 @@ $this->params['breadcrumbs'][] = $this->title;
                         </div>
                     </div>
                     <div class="sales__info">
-                        <div class="sales__item">
-                            <span class="sales__span sales__span1"></span>
-                            <div class="sales__index">
-                                <div class="sales__index-name">Общее количество объектов</div>
-                                <div class="title54 sales__index-number">570</div>
+                        <div class="diagram-info">
+                            <div class="diagram-info__index">
+                                <span class="diagram-info__span diagram-info__span1"></span>
+                                <div class="title18 sales__index-name">Общее количество объектов</div>
                             </div>
+                            <div class="title54 diagram-info__number">570</div>
                         </div>
-                        <div class="sales__item">
-                            <span class="sales__span sales__span2"></span>
-                            <div class="sales__index">
-                                <div class="sales__index-name">В работе</div>
-                                <div class="title54 sales__index-number">100</div>
+                        <div class="diagram-info">
+                            <div class="diagram-info__index">
+                                <span class="diagram-info__span diagram-info__span2"></span>
+                                <div class="title18 sales__index-name">В работе</div>
                             </div>
+                            <div class="title54 diagram-info__number">100</div>
                         </div>
-                        <div class="sales__item">
-                            <span class="sales__span sales__span3"></span>
-                            <div class="sales__index">
-                                <div class="sales__index-name">Проданные объекты</div>
-                                <div class="title54 sales__index-number">250</div>
+                        <div class="diagram-info">
+                            <div class="diagram-info__index">
+                                <span class="diagram-info__span diagram-info__span3"></span>
+                                <div class="title18 sales__index-name">Проданные объекты</div>
                             </div>
+                            <div class="title54 diagram-info__number">250</div>
                         </div>
-                        <div class="sales__item">
-                            <span class="sales__span sales__span4"></span>
-                            <div class="sales__index">
-                                <div class="sales__index-name">Неактивные объекты</div>
-                                <div class="title54 sales__index-number">45</div>
+                        <div class="diagram-info">
+                            <div class="diagram-info__index">
+                                <span class="diagram-info__span diagram-info__span4"></span>
+                                <div class="title18 sales__index-name">Неактивные объекты</div>
                             </div>
+                            <div class="title54 diagram-info__number">45</div>
                         </div>
                     </div>
                 </div>
