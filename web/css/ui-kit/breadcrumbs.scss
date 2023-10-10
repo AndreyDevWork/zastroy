@@ -6,7 +6,7 @@ body {
   .breadcrumb {
     column-gap: 4px;
     margin-bottom: 0;
-    li {
+    .active {
       @include title14;
       color: $beige;
     }

@@ -5,9 +5,13 @@
   &__table {
     display: grid;
     grid-template-columns: 20px 300px 170px 170px 120px 160px 190px 60px 100px;
-    column-gap: 35px;
     padding: 14px 30px;
     background: #FFF;
     border-radius: 20px;
+    justify-content: space-between;
+    margin-top: 17px;
+  }
+  &__title {
+    color: $text-gray;
   }
 }
