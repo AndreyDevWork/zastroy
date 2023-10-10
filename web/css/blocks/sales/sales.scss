@@ -1,12 +1,9 @@
 .sales {
-  padding-left: 290px;
-  background: $background;
-  height: calc(100vh - 100px);
   &__container {
     padding: 33px 36px;
   }
   &__header {
-    margin-top: 5px;
+    margin-top: 10px;
   }
   &__selects {
     display: flex;

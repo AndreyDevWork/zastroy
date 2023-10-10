@@ -9,12 +9,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 <section class="sales">
-    <div class="sales__container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-            'itemTemplate' => "<li class='title14 breadcrumb__li'>{link}</li>\n",
-        ]); ?>
-
+    <div>
         <h1 class="sales__header title34">Отчеты по продажам</h1>
         <div class="sales__selects">
             <div class="sales__select">

@@ -647,7 +647,7 @@ body a {
   margin-bottom: 0;
 }
 
-s .title16 {
+.title16 {
   color: #A3AED0;
   font-size: 16px;
   font-style: normal;
@@ -816,6 +816,15 @@ body .breadcrumb a:hover {
   margin-top: 5px;
   grid-column: 2/3;
   padding-left: 18px;
+}
+
+.container-left {
+  padding-left: 290px;
+  background: #F1F5F9;
+  height: calc(100vh - 100px);
+}
+.container-left .container-inside {
+  padding: 33px 36px;
 }
 
 .login {
@@ -1083,16 +1092,11 @@ body .breadcrumb a:hover {
   display: none;
 }
 
-.sales {
-  padding-left: 290px;
-  background: #F1F5F9;
-  height: calc(100vh - 100px);
-}
 .sales__container {
   padding: 33px 36px;
 }
 .sales__header {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .sales__selects {
   display: flex;
@@ -1159,6 +1163,18 @@ body .breadcrumb a:hover {
 }
 .sales__span4 {
   background: #028DC8;
+}
+
+.request__header {
+  margin-top: 10px;
+}
+.request__table {
+  display: grid;
+  grid-template-columns: 20px 300px 170px 170px 120px 160px 190px 60px 100px;
+  column-gap: 35px;
+  padding: 14px 30px;
+  background: #FFF;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=import.css.map */

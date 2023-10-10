@@ -29,7 +29,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>Sales</title>
+        <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
     </head>
     <body>
@@ -158,7 +158,16 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 
     <?php $this->beginBody() ?>
     <main>
-        <?= $content ?>
+        <section class="container-left sales">
+            <div class="container-inside">
+                <?= Breadcrumbs::widget([
+                    'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+                    'itemTemplate' => "<li class='title14 breadcrumb__li'>{link}</li>\n",
+                ]); ?>
+                <?= $content ?>
+            </div>
+        </section>
+
     </main>
     <?php $this->endBody() ?>
     </body>

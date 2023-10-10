@@ -1,0 +1,8 @@
+.container-left {
+  padding-left: 290px;
+  background: $background;
+  height: calc(100vh - 100px);
+  .container-inside {
+    padding: 33px 36px;
+  }
+}
