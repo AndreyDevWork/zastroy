@@ -17,7 +17,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="sales__select-wrapper">
                     <img class="sales__arrow" src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="icon">
                     <select class="select sales__position" name="position" id="position">
-                        <option selected>Все</option>
+                        <option disabled>Все</option>
+                        <option>Все</option>
                         <option>Спиридонов Максим Ярославович</option>
                         <option>Козлова Ульяна Павловна</option>
                         <option>Иванов Михаил Леонидович</option>
@@ -32,7 +33,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="sales__select-wrapper">
                     <img class="sales__arrow" src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="icon">
                     <select class="select sales__position" name="position" id="position">
-                        <option selected>Все</option>
+                        <option disabled>Все</option>
+                        <option>Все</option>
                         <option>Спиридонов Максим Ярославович</option>
                         <option>Козлова Ульяна Павловна</option>
                         <option>Иванов Михаил Леонидович</option>

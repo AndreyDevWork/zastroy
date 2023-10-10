@@ -24,7 +24,8 @@ class AppAsset extends AssetBundle
         'css/import.css'
     ];
     public $js = [
-        'css/blocks/header/header.js'
+        'css/blocks/header/header.js',
+        'css/ui-kit/select/select.js'
     ];
     public $depends = [
 //        'yii\web\YiiAsset',
