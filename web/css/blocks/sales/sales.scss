@@ -49,11 +49,9 @@
     margin-top: 20px;
     display: flex;
   }
-  &__diagram {
+  &__diagram-wrapper {
     height: 440px;
     width: 440px;
-    border-radius: 100%;
-    transform: rotate(-50deg);
   }
 
   &__info {

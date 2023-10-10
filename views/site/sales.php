@@ -58,14 +58,16 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <div class="sales__report">
                     <div class="sales__quadro">
-                        <div style="
-                           background: conic-gradient(
-                                #9AE1FF 0% 19%,
-                                #009FE3 19% 54%,
-                                #028DC8 54% 82%,
-                                #D8F3FF 82% 100%
-                            );
-                        " class="sales__diagram"></div>
+                        <div class="sales__diagram-wrapper">
+                            <div style="
+                               background: conic-gradient(
+                                    #9AE1FF 0% 19%,
+                                    #009FE3 19% 54%,
+                                    #028DC8 54% 82%,
+                                    #D8F3FF 82% 100%
+                                );
+                            " class="diagram"></div>
+                        </div>
                     </div>
                     <div class="sales__info">
                         <div class="sales__item">

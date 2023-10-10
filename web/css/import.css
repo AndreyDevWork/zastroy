@@ -776,6 +776,13 @@ body .breadcrumb a:hover {
   padding: 33px 36px;
 }
 
+.diagram {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  transform: rotate(-50deg);
+}
+
 .login {
   height: 100vh;
   display: grid;
@@ -1092,11 +1099,9 @@ body .breadcrumb a:hover {
   margin-top: 20px;
   display: flex;
 }
-.sales__diagram {
+.sales__diagram-wrapper {
   height: 440px;
   width: 440px;
-  border-radius: 100%;
-  transform: rotate(-50deg);
 }
 .sales__info {
   display: flex;
