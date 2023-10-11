@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="request__rows">
             <?php
             for ($i = 1; $i <= 14; $i++) { ?>
-                <div class="request__row">
+            <div class="request__row">
                 <div class="title14 request__title"><?= $i ?></div>
                 <div class="title14 request__title">Кальнин Кирилл Александрович</div>
                 <div class="title14 request__title">+7(960)860-60-70</div>

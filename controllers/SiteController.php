@@ -153,4 +153,11 @@ class SiteController extends Controller
         $baseUrl = \Yii::$app->request->baseUrl;
         return $this->render('request', ['baseUrl' => $baseUrl, 'breadcrumbs' => $breadcrumbs]);
     }
+    public function actionCatalog()
+    {
+        $breadcrumbs = ['Catalog'];
+        $this->layout = 'left-side';
+        $baseUrl = \Yii::$app->request->baseUrl;
+        return $this->render('catalog', ['baseUrl' => $baseUrl, 'breadcrumbs' => $breadcrumbs]);
+    }
 }

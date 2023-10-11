@@ -1,0 +1,91 @@
+.catalog {
+  &__header {
+    margin-top: 10px;
+  }
+  &__head {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__table {
+    margin-top: 25px;
+    padding: 0;
+  }
+  &__columns {
+    display: flex;
+    column-gap: 57px;
+    padding-left: 31px;
+    padding-right: 25px;
+    height: 50px;
+    border-bottom: 1px solid #E9EDF7;
+    align-items: center;
+  }
+  &__row {
+    padding: 21px 25px 21px 31px;
+    display: flex;
+    column-gap: 39px;
+  }
+  &__title {
+    color: $text-gray;
+  }
+  &__icon-wrapper {
+    width: 27px;
+    height: 25px;
+    display: flex;
+    align-items: end;
+    position: relative;
+    img {
+      position: absolute;
+      top: 0px;
+    }
+  }
+  &__icon {
+    display: flex;
+    width: 27px;
+    height: 18px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid $header-title;
+    border-radius: 4px;
+    color: $header-title;
+    font-size: 12px;
+  }
+  &__house {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  &__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 4px;
+  }
+  &__sircle {
+    width: 37px;
+    height: 37px;
+    background: #F1F5F9;
+    position: absolute;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -10px;
+    top: 0px;
+    color: $header-title;
+  }
+  &__info {
+    display: grid;
+    grid-template-columns: 70px 130px 130px 40px 270px;
+    column-gap: 30px;
+  }
+  &__name {
+    color: $text-gray;
+    line-height: 24px;
+  }
+  &__current {
+    color: $gray-hard;
+    line-height: 24px;
+  }
+}
