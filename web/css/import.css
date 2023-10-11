@@ -927,7 +927,7 @@ body .breadcrumb a:hover {
   display: flex;
   justify-content: center;
 }
-.pagination .pagination a:nth-child(3) {
+.pagination .pagination .current-page {
   border: 1px solid #4B94B3;
   background-color: #009FE3;
   color: #FFF;

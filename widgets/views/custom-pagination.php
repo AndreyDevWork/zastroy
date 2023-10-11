@@ -11,14 +11,15 @@ use yii\widgets\LinkPager;
 
     // Стрелка влево (если не на первой странице)
     if ($currentPage > 1) {
-        echo '<a href="' . $pagination->createUrl($currentPage - 2) . '" class="page-link">&lt;</a>';
+        echo '<a href="' . $pagination->createUrl($currentPage - 2) . '" >&lt;</a>';
     } else {
         echo '<span class="disabled">&lt;</span>';
     }
 
     // Первые три страницы
     for ($i = max(1, $currentPage - 1); $i <= min($pageCount, $currentPage + 2); $i++) {
-        echo '<a href="' . $pagination->createUrl($i - 1) . '" class="">' . $i . '</a>';
+        $class = ($currentPage == $i) ? 'current-page' : '';
+        echo '<a href="' . $pagination->createUrl($i - 1) . '" class="' . $class . '">' . $i . '</a>';
     }
 
     // Троеточие
@@ -28,7 +29,8 @@ use yii\widgets\LinkPager;
 
     // Последние страницы
     for ($i = max($currentPage + 2, $pageCount); $i <= $pageCount; $i++) {
-        echo '<a href="' . $pagination->createUrl($i - 1) . '" class="">' . $i . '</a>';
+        $class = ($currentPage == $i) ? 'current-page' : '';
+        echo '<a href="' . $pagination->createUrl($i - 1) . '" class="' . $class . '">' . $i . '</a>';
     }
 
     // Стрелка вправо (если не на последней странице)
