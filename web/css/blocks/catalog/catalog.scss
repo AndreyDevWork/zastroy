@@ -19,8 +19,16 @@
     border-bottom: 1px solid #E9EDF7;
     align-items: center;
   }
-  &__row {
-    padding: 21px 25px 21px 31px;
+  &__rows {
+    padding-right: 35px;
+    padding-left: 30px;
+  }
+  &__row-holder {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__row-first {
+    padding: 21px 0 21px 0px;
     display: flex;
     column-gap: 39px;
   }
@@ -87,5 +95,31 @@
   &__current {
     color: $gray-hard;
     line-height: 24px;
+  }
+
+  &__row-last {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0 21px 0px;
+  }
+  &__delete {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__to {
+    width: 30px;
+    height: 30px;
+    background: $interface;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

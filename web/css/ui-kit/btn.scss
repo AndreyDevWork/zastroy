@@ -2,6 +2,8 @@
   padding: 17px 40px;
   background: $interface;
   border: none;
+  display: flex;
+  align-items: center;
   color: #FFF;
   font-family: DM Sans;
   font-size: 16px;
@@ -10,6 +12,7 @@
   line-height: 100%;
   border-radius: 16px;
   transition: 0.4s all;
+  cursor: pointer;
   &:hover {
     background: $interface-hover;
   }
