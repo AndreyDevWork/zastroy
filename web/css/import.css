@@ -1062,18 +1062,27 @@ body .breadcrumb a:hover {
 .admin__container {
   grid-template-columns: repeat(5, 1fr);
   display: grid;
-  width: 1500px;
+  max-width: 1540px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: auto;
   padding-top: 32px;
   column-gap: 20px;
-  padding-left: 0px;
 }
 .admin__card {
-  aspect-ratio: 284/186;
+  max-width: 284px;
+  min-height: 186px;
   border-radius: 20px;
   background: #FFF;
   box-shadow: 2px 4px 23px 0px rgba(0, 0, 0, 0.05);
   list-style-type: none;
+  transition: 0.2s all;
+}
+.admin__card-hover {
+  background: #009FE3;
+}
+.admin__name-hover {
+  color: #FFF;
 }
 .admin__link {
   display: flex;
@@ -1093,11 +1102,13 @@ body .breadcrumb a:hover {
   height: 78px;
   border-radius: 100%;
   display: flex;
+  background: #FFF;
   align-items: center;
   justify-content: center;
 }
 .admin__name {
   margin-top: 12px;
+  transition: 0.2s all;
 }
 
 .aside {
@@ -1233,17 +1244,49 @@ body .breadcrumb a:hover {
 .request__header {
   margin-top: 10px;
 }
-.request__table {
+.request__column {
+  column-gap: 15px;
   display: grid;
-  grid-template-columns: 20px 300px 170px 170px 120px 160px 190px 60px 100px;
+  grid-template-columns: 20px minmax(150px, 300px) minmax(100px, 170px) minmax(130px, 170px) minmax(70px, 120px) minmax(100px, 160px) minmax(110px, 190px) minmax(45px, 60px) minmax(60px, 100px);
   padding: 14px 30px;
   background: #FFF;
-  border-radius: 20px;
   justify-content: space-between;
   margin-top: 17px;
+  border-bottom: 1px solid #E9EFF4;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+  align-items: center;
 }
 .request__title {
   color: #A3AED0;
+}
+.request__rows {
+  background: #FFF;
+  margin-top: 0;
+  border-radius: 0px;
+}
+.request__row {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 52px;
+  justify-content: space-between;
+  column-gap: 15px;
+  border-bottom: 1px solid #E9EFF4;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 20px minmax(150px, 300px) minmax(100px, 170px) minmax(130px, 170px) minmax(70px, 120px) minmax(100px, 160px) minmax(110px, 190px) minmax(45px, 60px) minmax(60px, 100px);
+}
+.request__row .request__title {
+  color: #64748B;
+  font-weight: 400;
+}
+.request__table {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 37px;
+  background: #FFF;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=import.css.map */

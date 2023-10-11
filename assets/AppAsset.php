@@ -25,6 +25,7 @@ class AppAsset extends AssetBundle
     ];
     public $js = [
         'css/blocks/header/header.js',
+        'css/blocks/admin/admin.js',
         'css/ui-kit/select/select.js'
     ];
     public $depends = [

@@ -4,18 +4,27 @@
   &__container {
     grid-template-columns: repeat(5, 1fr);
     display: grid;
-    width: 1500px;
+    max-width: 1540px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: auto;
     padding-top: 32px;
     column-gap: 20px;
-    padding-left: 0px;
   }
   &__card {
-    aspect-ratio: 284/186;
+    max-width: 284px;
+    min-height: 186px;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 2px 4px 23px 0px rgba(0, 0, 0, 0.05);
     list-style-type: none;
+    transition: .2s all;
+  }
+  &__card-hover {
+    background: $interface;
+  }
+  &__name-hover {
+    color: #FFF;
   }
   &__link {
     display: flex;
@@ -36,10 +45,12 @@
     height: 78px;
     border-radius: 100%;
     display: flex;
+    background: #FFF;
     align-items: center;
     justify-content: center;
   }
   &__name {
     margin-top: 12px;
+    transition: .2s all;
   }
 }
