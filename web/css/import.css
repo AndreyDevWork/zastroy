@@ -574,6 +574,7 @@ progress {
 
 body {
   min-height: 100%;
+  position: relative;
 }
 
 body h1 {
@@ -894,6 +895,44 @@ body .breadcrumb a:hover {
   padding: 33px 46px;
 }
 
+.pagination {
+  justify-content: center;
+  position: relative;
+  margin-top: 30px;
+}
+.pagination .pagination {
+  column-gap: 12px;
+}
+.pagination .pagination a, .pagination .pagination span {
+  background-color: #F5F5F5;
+  width: 25px;
+  height: 25px;
+  color: #404B52;
+  font-size: 12px;
+  font-style: normal;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #EEE;
+}
+.pagination .pagination .three-dots {
+  background-color: transparent;
+  width: 9px;
+  height: 25px;
+  color: #404B52;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.pagination .pagination a:nth-child(3) {
+  border: 1px solid #4B94B3;
+  background-color: #009FE3;
+  color: #FFF;
+}
+
 .login {
   height: 100vh;
   display: grid;
@@ -1115,11 +1154,11 @@ body .breadcrumb a:hover {
 
 .aside {
   width: 290px;
-  height: 100vh;
   background: #FFF;
   position: absolute;
   padding: 32px 0;
   top: 0;
+  height: 100%;
 }
 .aside__logo {
   margin: auto;
@@ -1412,6 +1451,9 @@ body .breadcrumb a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.catalog__to:hover {
+  background: #14B4F9;
 }
 
 /*# sourceMappingURL=import.css.map */
