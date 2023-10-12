@@ -1,11 +1,11 @@
 <?php
 $this->params['baseUrl'] = Yii::$app->request->baseUrl;
 
-$this->title = 'Product';
+$this->title = 'Category';
 ?>
 
 <div class="container">
-    <section class="product">
+    <section class="category">
         <a href="#" class="back">
             <img src="<?= $baseUrl ?>/img/icon-svg/arrow-left.svg" alt="arrow-left">
             <span class="back__span">Назад</span>
@@ -14,25 +14,25 @@ $this->title = 'Product';
             <h1 class="title28">ЖК «61 Квартал»</h1>
             <div class="my-btn">+&nbsp;&nbsp;Регистрация</div>
         </div>
-        <div class="product__data">
-            <div class="product__info">
+        <div class="category__data">
+            <div class="category__info">
                 <div class="title14 regular">ID</div>
-                <a href="#" class="product__link title14 refular">8272</a>
+                <a href="#" class="category__link title14 refular">8272</a>
             </div>
-            <div class="product__info">
+            <div class="category__info">
                 <div class="title14 regular">Ответственный</div>
-                <a href="#" class="product__link title14 refular">Исаев Никита Даниилович</a>
+                <a href="#" class="category__link title14 refular">Исаев Никита Даниилович</a>
             </div>
-            <div class="product__info">
+            <div class="category__info">
                 <div class="title14 regular">Адрес</div>
                 <div class="title14 regular">г.Ростов-На-Дону</div>
             </div>
         </div>
-        <div class="info-block product__info-block ">
-            <span class="title16 bold product__span">
+        <div class="info-block photos">
+            <span class="title16 bold photos__span">
                 Фотографии
             </span>
-            <div class="product__photos photos">
+            <div class="photos__photos">
                 <div class="photos__wrapper">
                     <img src="<?= $baseUrl ?>/img/product/photo1.png" alt="photo" class="object-fit">
                 </div>
