@@ -174,4 +174,9 @@ class SiteController extends Controller
         $baseUrl = \Yii::$app->request->baseUrl;
         return $this->render('menegers-sales-department', ['baseUrl' => $baseUrl, 'breadcrumbs' => $breadcrumbs]);
     }
+    public function actionProduct()
+    {
+        $baseUrl = \Yii::$app->request->baseUrl;
+        return $this->render('product', ['baseUrl' => $baseUrl]);
+    }
 }
