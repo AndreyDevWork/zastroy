@@ -160,4 +160,18 @@ class SiteController extends Controller
         $baseUrl = \Yii::$app->request->baseUrl;
         return $this->render('catalog', ['baseUrl' => $baseUrl, 'breadcrumbs' => $breadcrumbs]);
     }
+    public function actionLeadersSalesDepartment()
+    {
+        $breadcrumbs = ['Leaders-sales-department'];
+        $this->layout = 'left-side';
+        $baseUrl = \Yii::$app->request->baseUrl;
+        return $this->render('leaders-sales-department', ['baseUrl' => $baseUrl, 'breadcrumbs' => $breadcrumbs]);
+    }
+    public function actionMenegersSalesDepartment()
+    {
+        $breadcrumbs = ['Menegers-sales-department'];
+        $this->layout = 'left-side';
+        $baseUrl = \Yii::$app->request->baseUrl;
+        return $this->render('menegers-sales-department', ['baseUrl' => $baseUrl, 'breadcrumbs' => $breadcrumbs]);
+    }
 }

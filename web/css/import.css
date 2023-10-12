@@ -604,6 +604,7 @@ body a {
   border-radius: 16px;
   transition: 0.4s all;
   cursor: pointer;
+  justify-content: center;
 }
 .my-btn:hover {
   background: #14B4F9;
@@ -950,6 +951,14 @@ body .breadcrumb a:hover {
   border: 1px solid #4B94B3;
   background-color: #009FE3;
   color: #FFF;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+}
+.header-section__title {
+  margin-top: 10px;
 }
 
 .login {
@@ -1322,15 +1331,10 @@ body .breadcrumb a:hover {
 .request__title {
   color: #A3AED0;
 }
-.request__rows {
-  background: #FFF;
-  margin-top: 0;
-  border-radius: 0px;
-}
 .request__row {
   padding-left: 20px;
   padding-right: 20px;
-  min-height: 52px;
+  min-height: 50px;
   justify-content: space-between;
   column-gap: 15px;
   border-bottom: 1px solid #E9EFF4;
@@ -1474,6 +1478,54 @@ body .breadcrumb a:hover {
 }
 .catalog__to:hover {
   background: #14B4F9;
+}
+
+.department__header {
+  margin-top: 10px;
+}
+.department__table {
+  padding: 0;
+  margin-top: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 12px;
+}
+.department__title {
+  color: #A3AED0;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.department__columns {
+  display: grid;
+  grid-template-columns: 20px minmax(150px, 330px) minmax(160px, 240px) minmax(130px, 220px) minmax(130px, 230px) 280px;
+  justify-content: space-between;
+  column-gap: 15px;
+  height: 50px;
+  align-items: center;
+  border-bottom: 1px solid #E9EFF4;
+  padding-left: 21px;
+  padding-right: 70px;
+}
+.department__row {
+  display: grid;
+  grid-template-columns: 20px minmax(150px, 330px) minmax(160px, 240px) minmax(130px, 220px) minmax(130px, 230px) 280px;
+  justify-content: space-between;
+  column-gap: 15px;
+  min-height: 50px;
+  border-bottom: 1px solid #E9EFF4;
+  align-items: center;
+  padding-left: 21px;
+  padding-right: 70px;
+}
+.department__row:last-child {
+  border-bottom: none;
+}
+.department__row .department__title {
+  color: #64748B;
+  font-weight: 400;
+}
+.department__menegers {
+  text-align: center;
 }
 
 /*# sourceMappingURL=import.css.map */

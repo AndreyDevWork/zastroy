@@ -1,0 +1,49 @@
+.department {
+  &__header {
+    margin-top: 10px;
+  }
+  &__table {
+    padding: 0;
+    margin-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 12px;
+  }
+  &__title {
+    color: $text-gray;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  &__columns {
+    display: grid;
+    grid-template-columns: 20px minmax(150px, 330px) minmax(160px, 240px) minmax(130px, 220px) minmax(130px, 230px) 280px;
+    justify-content: space-between;
+    column-gap: 15px;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid #E9EFF4;
+    padding-left: 21px;
+    padding-right: 70px;
+  }
+  &__row {
+    display: grid;
+    grid-template-columns: 20px minmax(150px, 330px) minmax(160px, 240px) minmax(130px, 220px) minmax(130px, 230px) 280px;
+    justify-content: space-between;
+    column-gap: 15px;
+    min-height: 50px;
+    border-bottom: 1px solid #E9EFF4;
+    align-items: center;
+    padding-left: 21px;
+    padding-right: 70px;
+    &:last-child {
+      border-bottom: none;
+    }
+    .department__title {
+      color: $gray-hard;
+      font-weight: 400;
+    }
+  }
+  &__menegers {
+    text-align: center;
+  }
+}

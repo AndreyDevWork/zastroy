@@ -13,6 +13,7 @@
   border-radius: 16px;
   transition: 0.4s all;
   cursor: pointer;
+  justify-content: center;
   &:hover {
     background: $interface-hover;
   }

@@ -18,9 +18,9 @@ $pagination = new Pagination([
 ?>
 
 <section class="catalog">
-    <div class="catalog__head">
-        <h1 class="catalog__header title34">Каталог недвижимости</h1>
-        <div class="my-btn">Создать категорию</div>
+    <div class="header-section">
+        <h1 class="header-section__title title34">Каталог недвижимости</h1>
+        <div class="my-btn">+&nbsp;&nbsp;Создать категорию</div>
     </div>
     <div class="info-block catalog__table">
         <div class="catalog__columns">
