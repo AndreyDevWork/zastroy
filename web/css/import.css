@@ -837,6 +837,25 @@ body .breadcrumb a:hover {
   transform: rotate(180deg);
 }
 
+.select-arrow {
+  pointer-events: none;
+  width: 18px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.2s all;
+  z-index: 1;
+}
+
+.select-arrow-rorate {
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+.select-wrapper {
+  position: relative;
+}
+
 .info-block {
   width: 100%;
   border-radius: 20px;
@@ -1235,6 +1254,7 @@ body .breadcrumb a:hover {
   right: 20px;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 1;
 }
 .sales__panel {
   display: flex;

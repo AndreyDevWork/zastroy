@@ -1,11 +1,20 @@
 <?php
 use yii\widgets\Breadcrumbs;
+use yii\data\Pagination;
 
 $this->params['baseUrl'] = Yii::$app->request->baseUrl;
 
 $this->title = 'Request';
 
 $this->params['breadcrumbs'][] = $this->title;
+
+$totalCount = 300; // Общее количество элементов (ваше значение)
+$pageSize = 14; // Количество элементов на странице
+
+$pagination = new Pagination([
+    'totalCount' => $totalCount,
+    'pageSize' => $pageSize,
+]);
 
 ?>
 <section class="request">
@@ -26,7 +35,8 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
         <div class="request__rows">
             <?php
-            for ($i = 1; $i <= 14; $i++) { ?>
+            for ($i = $pagination->offset; $i < $pagination->offset + $pagination->limit; $i++) {
+            ?>
             <div class="request__row">
                 <div class="title14 request__title"><?= $i ?></div>
                 <div class="title14 request__title">Кальнин Кирилл Александрович</div>
@@ -44,3 +54,6 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
     </div>
 </section>
+<div class="pagination">
+    <?= \app\widgets\CustomLinkPager::widget(['pagination' => $pagination]) ?>
+</div>

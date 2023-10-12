@@ -18,6 +18,6 @@ use yii\web\AssetBundle;
 class AppScriptsLogin extends AssetBundle
 {
     public $js = [
-        'web/css/blocks/login/login.js'
+        'web/css/blocks/login/login.js',
     ];
 }

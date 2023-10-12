@@ -56,4 +56,17 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+
+
+
+    const wrappers = document.querySelectorAll('.sales__select-wrapper');
+    wrappers.forEach(wrapper => {
+        const select = wrapper.querySelector('.new-select');
+        const arrow = wrapper.querySelector('.select-arrow');
+        select.addEventListener('click', () => {
+            arrow.classList.toggle('select-arrow-rorate');
+        });
+    });
+
 });

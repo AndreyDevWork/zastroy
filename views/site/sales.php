@@ -14,8 +14,8 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="sales__selects">
             <div class="sales__select">
                 <div class="title14 sales__position-wrapper">Руководитель</div>
-                <div class="sales__select-wrapper">
-                    <img class="sales__arrow" src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="icon">
+                <div class="select-wrapper sales__select-wrapper">
+                    <img class="select-arrow" src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="icon">
                     <select class="select sales__position" name="position" id="position">
                         <option disabled>Все</option>
                         <option>Все</option>
@@ -30,8 +30,8 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
             <div class="sales__select">
                 <div class="title14 sales__position-wrapper">Менеджер</div>
-                <div class="sales__select-wrapper">
-                    <img class="sales__arrow" src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="icon">
+                <div class="select-wrapper sales__select-wrapper">
+                    <img class="select-arrow" src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="icon">
                     <select class="select sales__position" name="position" id="position">
                         <option disabled>Все</option>
                         <option>Все</option>
