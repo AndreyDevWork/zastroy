@@ -1,0 +1,11 @@
+.photos {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 18px;
+}
+.photos__wrapper {
+  max-width: 343px;
+  max-height: 288px;
+}
+
+/*# sourceMappingURL=photos.css.map */

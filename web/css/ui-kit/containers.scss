@@ -5,5 +5,12 @@
   .container-inside {
     padding: 33px 46px;
   }
-
+}
+body {
+  .container {
+    max-width: 1839px;
+    padding: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }

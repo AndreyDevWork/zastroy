@@ -1,0 +1,50 @@
+.about {
+  margin-top: 30px;
+  &__info-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    padding-right: 110px;
+    column-gap: 58px;
+  }
+  &__left {
+    width: 100%;
+  }
+  &__tabs {
+    display: flex;
+    column-gap: 24px;
+    border-bottom: 1px solid #EEEEEE;
+    height: 47px;
+  }
+  &__tab {
+    color: $gray-product;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__tab_active {
+    font-weight: 700;
+    color: $interface;
+    border-bottom: 2px solid $interface;
+  }
+  &__about {
+    padding-top: 35px;
+  }
+  &__title {
+    color: $gray-product;
+  }
+  &__about {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+  &__photo {
+    width: 488px;
+    min-width: 488px;
+    padding-top: 19px;
+    img {
+      border-radius: 8px;
+    }
+  }
+}

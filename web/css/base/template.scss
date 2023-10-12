@@ -1,9 +1,12 @@
 * {
   font-family: DM Sans;
 }
-body {
-  min-height: 100%;
-  position: relative;
+html {
+  body {
+    min-height: 100%;
+    position: relative;
+    background: #F1F5F9;
+  }
 }
 body {
   h1  {
@@ -11,7 +14,8 @@ body {
   }
   a {
     text-decoration: none;
-    text-underline-offset: 2px;
+    text-underline-offset: 3px;
+    color: $beige;
   }
 
 }

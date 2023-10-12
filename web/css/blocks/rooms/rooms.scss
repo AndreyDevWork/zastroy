@@ -1,0 +1,61 @@
+.rooms {
+  padding: 28px 0 120px 0;
+  &__info-block {
+    margin-top: 30px;
+    padding: 28px 27px;
+  }
+  &__span {
+    color: #4C535F;
+  }
+  &__block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    //max-width: 1784px;
+    margin: auto;
+    margin-top: 15px;
+    row-gap: 30px;
+  }
+  &__card {
+    border: 1px solid #E9EFF4;
+    border-radius: 20px;
+    padding: 22px;
+    display: grid;
+    column-gap: 25px;
+    grid-template-columns: 158px auto;
+  }
+  &__plan {
+    width: 100%;
+    position: relative;
+    aspect-ratio: 1;
+  }
+  &__sircle {
+    position: absolute;
+    height: 37px;
+    width: 37px;
+    background: #F1F5F9;
+    border-radius: 100%;
+    right: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $header-title;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 6px;
+  }
+  &__name {
+    line-height: 20px;
+    color: $gray-product;
+  }
+  &__descr {
+    line-height: 19px;
+    color: #666;
+  }
+  &__book {
+    color: $interface;
+  }
+}

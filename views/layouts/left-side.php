@@ -163,7 +163,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 
     <?php $this->beginBody() ?>
     <main>
-        <section class="container-left sales">
+        <div class="container-left">
             <div class="container-inside">
                 <?= Breadcrumbs::widget([
                     'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
@@ -171,7 +171,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 ]); ?>
                 <?= $content ?>
             </div>
-        </section>
+        </div>
 
     </main>
     <?php $this->endBody() ?>

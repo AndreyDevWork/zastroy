@@ -1,7 +1,9 @@
 .header-section {
   display: flex;
   justify-content: space-between;
+  align-items: end;
   &__title {
     margin-top: 10px;
+    margin-bottom: 0;
   }
 }
