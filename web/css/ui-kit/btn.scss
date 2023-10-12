@@ -12,10 +12,20 @@
   line-height: 100%;
   height: 50px;
   border-radius: 16px;
-  transition: 0.4s all;
+  transition: 0.2s all;
   cursor: pointer;
   justify-content: center;
   &:hover {
     background: $interface-hover;
+  }
+}
+
+.opacity-btn {
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid $interface;
+  color: $interface;
+  &:hover {
+    background: $interface-hover;
+    color: #FFFFFF;
   }
 }

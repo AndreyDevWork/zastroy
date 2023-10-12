@@ -6,4 +6,8 @@
     margin-top: 10px;
     margin-bottom: 0;
   }
+  &__btns {
+    display: flex;
+    column-gap: 24px;
+  }
 }

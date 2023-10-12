@@ -1,7 +1,7 @@
 <?php
 $this->params['baseUrl'] = Yii::$app->request->baseUrl;
 
-$this->title = 'Admin';
+$this->title = 'Product';
 ?>
 
 <div class="container">
@@ -11,7 +11,7 @@ $this->title = 'Admin';
             <span class="back__span">Назад</span>
         </a>
         <div class="header-section">
-            <h1 class="product__title title28">ЖК «61 Квартал»</h1>
+            <h1 class="title28">ЖК «61 Квартал»</h1>
             <div class="my-btn">+&nbsp;&nbsp;Регистрация</div>
         </div>
         <div class="product__data">
