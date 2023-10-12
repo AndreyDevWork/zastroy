@@ -5,7 +5,8 @@
     color: #4C535F;
   }
   &__photos {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     justify-content: space-between;
     column-gap: 18px;
   }

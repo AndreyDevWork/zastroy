@@ -2,9 +2,14 @@
 $this->params['baseUrl'] = Yii::$app->request->baseUrl;
 
 $this->title = 'Edit-category';
+
+/** @var app\models\LoginForm $model */
+
+use yii\bootstrap5\ActiveForm;
+use yii\bootstrap5\Html;
 ?>
 <div class="container">
-    <section class="edit-product">
+    <section class="edit-category">
         <a href="#" class="back">
             <img src="<?= $baseUrl ?>/img/icon-svg/arrow-left.svg" alt="arrow-left">
             <span class="back__span">Назад</span>
@@ -12,17 +17,17 @@ $this->title = 'Edit-category';
         <div class="header-section">
             <h1 class="title28">Редактировать</h1>
             <div class="header-section__btns">
-                <div class="my-btn edit-product__btn">Сохранить</div>
-                <div class="my-btn opacity-btn edit-product__btn">Отмена</div>
+                <button type="submit" class="my-btn edit-category__btn">Сохранить</button>
+                <div class="my-btn opacity-btn edit-category__btn">Отмена</div>
             </div>
         </div>
-        <div class="edit-product__data">
+        <div class="edit-category__data">
 
         </div>
         <div class="info-block photos">
-            <span class="title16 bold photos__span">
-                Фотографии
-            </span>
+        <span class="title16 bold photos__span">
+            Фотографии
+        </span>
             <div class="photos__photos">
                 <div class="photos__wrapper">
                     <img src="<?= $baseUrl ?>/img/product/photo1.png" alt="photo" class="object-fit">

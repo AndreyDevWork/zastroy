@@ -24,13 +24,14 @@ class AppAsset extends AssetBundle
         'css/import.css'
     ];
     public $js = [
+        'css/blocks/login/login.js',
         'css/blocks/header/header.js',
         'css/blocks/admin/admin.js',
         'css/ui-kit/select/select.js'
     ];
     public $depends = [
-//        'yii\web\YiiAsset',
-//        'yii\bootstrap5\BootstrapAsset'
+        'yii\web\YiiAsset',
+        'yii\bootstrap5\BootstrapAsset'
     ];
 
 }

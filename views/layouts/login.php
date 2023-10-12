@@ -6,7 +6,6 @@ use app\assets\AppAsset;
 use app\assets\AppScriptsLogin;
 
 AppAsset::register($this);
-AppScriptsLogin::register($this);
 
 $this->registerCsrfMetaTags();
 $this->registerMetaTag(['charset' => Yii::$app->charset], 'charset');

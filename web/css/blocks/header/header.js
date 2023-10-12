@@ -3,8 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const menu = document.querySelector('.header__menu');
-    mark.addEventListener('click', () => {
-        console.log('dada')
-        menu.classList.toggle('header__menu_active');
-    });
+    if(mark) {
+        mark.addEventListener('click', () => {
+            console.log('dada')
+            menu.classList.toggle('header__menu_active');
+        });
+    }
 });

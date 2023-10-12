@@ -181,7 +181,8 @@ class SiteController extends Controller
     }
     public function actionEditCategory()
     {
+        $model = new LoginForm();
         $baseUrl = \Yii::$app->request->baseUrl;
-        return $this->render('edit-category', ['baseUrl' => $baseUrl]);
+        return $this->render('edit-category', ['model' => $model, 'baseUrl' => $baseUrl]);
     }
 }

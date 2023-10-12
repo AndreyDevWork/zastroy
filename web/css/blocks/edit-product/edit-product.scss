@@ -1,9 +1,9 @@
-.edit-product {
+.edit-category {
   margin-top: 28px;
   &__btn {
     width: 177px;
   }
-  &__data {
+  &__input-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;

@@ -1717,13 +1717,13 @@ body .container {
   color: #009FE3;
 }
 
-.edit-product {
+.edit-category {
   margin-top: 28px;
 }
-.edit-product__btn {
+.edit-category__btn {
   width: 177px;
 }
-.edit-product__data {
+.edit-category__input-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
@@ -1739,7 +1739,8 @@ body .container {
   color: #4C535F;
 }
 .photos__photos {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   justify-content: space-between;
   column-gap: 18px;
 }
