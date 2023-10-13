@@ -1939,11 +1939,31 @@ body .container {
 }
 
 .stats {
+  margin-bottom: 74px;
   margin-top: 30px;
 }
 .stats__info-block {
   margin-top: 30px;
   padding: 28px 27px 41px 28px;
+}
+.stats__stats {
+  display: flex;
+  margin-top: 16px;
+}
+.stats__column {
+  max-width: 491px;
+  width: 100%;
+}
+.stats__stat {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  color: #4C535F;
+  border-bottom: 1px dashed #EBEBEB;
+}
+
+.edit-product {
+  margin-top: 28px;
 }
 
 /*# sourceMappingURL=import.css.map */

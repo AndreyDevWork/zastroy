@@ -68,6 +68,55 @@ $this->title = 'Product';
                 <div class="title16 regular tabs__tab">Дополнительная информация</div>
                 <div class="title16 regular tabs__tab">Видео</div>
             </div>
+
+            <div class="stats__stats">
+                <div class="stats__column">
+                    <div class="title14 regular stats__stat">
+                        Тип квартиры
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        Этаж
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        Адрес
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        Площадь
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        Балкон
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        Санузел
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        Отделка
+                    </div>
+                </div>
+                <div class="stats__column">
+                    <div class="title14 regular stats__stat">
+                        Новосстройка
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        1/10
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        Советский район
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        42,21 м3
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        есть
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        Раздельный
+                    </div>
+                    <div class="title14 regular stats__stat">
+                        без отделки
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </div>

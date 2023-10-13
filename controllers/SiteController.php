@@ -190,4 +190,9 @@ class SiteController extends Controller
         $baseUrl = \Yii::$app->request->baseUrl;
         return $this->render('product', ['baseUrl' => $baseUrl]);
     }
+    public function actionEditProduct()
+    {
+        $baseUrl = \Yii::$app->request->baseUrl;
+        return $this->render('edit-product', ['baseUrl' => $baseUrl]);
+    }
 }
