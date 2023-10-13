@@ -11,11 +11,14 @@
     column-gap: 18px;
   }
   &__wrapper {
-    max-width: 500px;
+    max-width: 343px;
     position: relative;
     width: 100%;
-    max-height: 350px;
+    max-height: 288px;
     margin-top: 18px;
+    img {
+      border-radius: 8px;
+    }
   }
   &__delete {
     position: absolute;

@@ -12,7 +12,7 @@ $this->title = 'Category';
         </a>
         <div class="header-section">
             <h1 class="title28">ЖК «61 Квартал»</h1>
-            <div class="my-btn">+&nbsp;&nbsp;Регистрация</div>
+            <div class="my-btn"><img src="<?= $baseUrl ?>/img/icon-svg/edit.svg" alt="edit">&nbsp;Редактировать</div>
         </div>
         <div class="category__data">
             <div class="category__info">
@@ -55,11 +55,11 @@ $this->title = 'Category';
     <section class="about">
         <div class="info-block about__info-block">
             <div class="about__left">
-                <div class="about__tabs">
-                    <div class="title16 regular about__tab about__tab_active">О комплексе</div>
-                    <div class="title16 regular about__tab">О доме</div>
-                    <div class="title16 regular about__tab">Дополнительная информация</div>
-                    <div class="title16 regular about__tab">Видео</div>
+                <div class="tabs">
+                    <div class="title16 regular tabs__tab tabs__tab_active">О комплексе</div>
+                    <div class="title16 regular tabs__tab">О доме</div>
+                    <div class="title16 regular tabs__tab">Дополнительная информация</div>
+                    <div class="title16 regular tabs__tab">Видео</div>
                 </div>
                 <div class="about__about">
                     <h2 class="title28 bold about__title">О комплексе</h2>

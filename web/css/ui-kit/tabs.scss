@@ -1,0 +1,18 @@
+.tabs {
+  display: flex;
+  column-gap: 24px;
+  border-bottom: 1px solid #EEEEEE;
+  height: 47px;
+  &__tab {
+    color: #4C535F;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__tab_active {
+    font-weight: 700;
+    color: #009FE3;
+    border-bottom: 2px solid #009FE3;
+  }
+}

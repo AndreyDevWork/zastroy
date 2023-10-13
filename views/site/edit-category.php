@@ -131,11 +131,11 @@ use yii\bootstrap5\Html;
     <section class="about">
         <div class="info-block">
             <div class="about__left">
-                <div class="about__tabs">
-                    <div class="title16 regular about__tab about__tab_active">О комплексе</div>
-                    <div class="title16 regular about__tab">О доме</div>
-                    <div class="title16 regular about__tab">Дополнительная информация</div>
-                    <div class="title16 regular about__tab">Видео</div>
+                <div class="tabs">
+                    <div class="title16 regular tabs__tab tabs__tab_active">О комплексе</div>
+                    <div class="title16 regular tabs__tab">О доме</div>
+                    <div class="title16 regular tabs__tab">Дополнительная информация</div>
+                    <div class="title16 regular tabs__tab">Видео</div>
                 </div>
                 <div class="about__about">
                     <?= $form->field($model, 'username')->textInput(['value' => 'О комплексе', 'required' => 'false', 'class' => 'input about__input-edit'])->label('Заголовок', ['class' => 'title13']) ?>

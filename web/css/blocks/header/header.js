@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mark.addEventListener('click', () => {
             console.log('dada')
             menu.classList.toggle('header__menu_active');
+            mark.classList.toggle('header__btn_active');
         });
     }
 });

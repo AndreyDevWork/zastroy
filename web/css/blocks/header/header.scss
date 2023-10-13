@@ -70,6 +70,10 @@
   &__btn {
     display: flex;
     cursor: pointer;
+    transition: .2s all;
+  }
+  &__btn_active {
+    transform: rotate(-180deg);
   }
   &__logout {
     background: #FFF;
