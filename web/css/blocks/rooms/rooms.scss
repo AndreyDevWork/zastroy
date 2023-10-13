@@ -1,8 +1,9 @@
 .rooms {
-  padding: 28px 0 120px 0;
+  padding-bottom: 120px;
   &__info-block {
     margin-top: 30px;
-    padding: 28px 27px;
+    padding: 28px 27px 41px 28px;
+
   }
   &__span {
     color: #4C535F;
@@ -57,5 +58,9 @@
   }
   &__book {
     color: $interface;
+  }
+  &__take {
+    border: 1px dashed #CCC;
+    background: #FAFAFA;
   }
 }

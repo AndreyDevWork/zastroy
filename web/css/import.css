@@ -766,7 +766,7 @@ body a {
   color: #FF5353;
 }
 .mb-3 .input:focus {
-  border: 1px solid #2B3674;
+  border: 1px solid #009FE3;
 }
 .mb-3 .is-invalid {
   border: 1px solid #FF5353;
@@ -1691,13 +1691,26 @@ body .container {
 .about__photo img {
   border-radius: 8px;
 }
+.about .about__input-edit {
+  height: 37px;
+  margin-top: 8px;
+  max-width: 850px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.about .about__photos-upload {
+  margin-top: 0;
+}
+.about .mb-3 {
+  margin-bottom: 0 !important;
+}
 
 .rooms {
-  padding: 28px 0 120px 0;
+  padding-bottom: 120px;
 }
 .rooms__info-block {
   margin-top: 30px;
-  padding: 28px 27px;
+  padding: 28px 27px 41px 28px;
 }
 .rooms__span {
   color: #4C535F;
@@ -1751,6 +1764,10 @@ body .container {
 }
 .rooms__book {
   color: #009FE3;
+}
+.rooms__take {
+  border: 1px dashed #CCC;
+  background: #FAFAFA;
 }
 
 .edit-category {

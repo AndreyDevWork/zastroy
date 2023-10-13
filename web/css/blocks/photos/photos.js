@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-
-    const dropArea = document.querySelector('.photos__upload');
+    const dropArea = document.querySelectorAll('.photos__upload');
     const fileInput = document.getElementById('file-input');
+    const fileInput2 = document.getElementById('file-input2');
 
     ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
-        dropArea.addEventListener(eventName, preventDefaults, false);
+        dropArea.forEach(drop => {
+            drop.addEventListener(eventName, preventDefaults, false);
+        })
     });
 
     function preventDefaults(e) {
@@ -12,15 +14,18 @@ document.addEventListener('DOMContentLoaded', () => {
         e.stopPropagation();
     }
 
-    dropArea.addEventListener('drop', handleDrop, false);
+    dropArea.forEach(drop => {
+        drop.addEventListener('drop', handleDrop, false);
+    })
 
     function handleDrop(e) {
         let dt = e.dataTransfer;
         let files = dt.files;
+        let targetInput = e.target.closest('.photos__upload').querySelector('input[type="file"]');
 
-        // Передаем первый файл в инпут
+        // Передаем файл только в целевой инпут
         if (files.length > 0) {
-            fileInput.files = files;
+            targetInput.files = files;
         }
     }
 });

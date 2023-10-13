@@ -127,6 +127,80 @@ use yii\bootstrap5\Html;
             </div>
         </div>
     </section>
+
+    <section class="about">
+        <div class="info-block">
+            <div class="about__left">
+                <div class="about__tabs">
+                    <div class="title16 regular about__tab about__tab_active">О комплексе</div>
+                    <div class="title16 regular about__tab">О доме</div>
+                    <div class="title16 regular about__tab">Дополнительная информация</div>
+                    <div class="title16 regular about__tab">Видео</div>
+                </div>
+                <div class="about__about">
+                    <?= $form->field($model, 'username')->textInput(['value' => 'О комплексе', 'required' => 'false', 'class' => 'input about__input-edit'])->label('Заголовок', ['class' => 'title13']) ?>
+                    <div class="about__p">
+                        <p>Жилой комплекс Gray (Грей) представляет собой новый формат жилья в Левенцовке. Малоэтажные кирпичные дома, с просторными дворами закрытого типа. Во дворах безопасные детские и спортивные площадки, прогулочные зоны, барбекю и многое другое. Большая территория под гостевую парковку, теплый подземный паркинг. </p>
+                        <p>На территории комплекса собственный детский сад и поликлиника, в шаговой доступности крупный торговый центр.Просторные квартиры с панорамным остеклением и хорошей шумоизоляцией. Планировки от уютной студии до просторной трёшки отличаются грамотными планировочными решениями, имеют встроенные ниши и гардеробные помещения.</p>
+                    </div>
+                </div>
+
+                <div class="photos__upload about__photos-upload" id="drop-area">
+                    <div class="title12 photos__mb10">Загрузка фото</div>
+                    <?= $form->field($model, 'username')->fileInput(['class' => 'photos__input', 'id' => 'file-input2'])->label('
+                    <div class="photos__custom-inp">
+                        <div class="photos__upload-icon">
+                            <img src="' . $baseUrl . '/img/icon-svg/upload.svg" alt="upload">
+                        </div>
+                        <div class="photos__upload-text">
+                            <div class="title13">Выберите файл или перетащите его сюда</div>
+                            <div class="title12 photos__format">JPG,  или PNG, размер файла не более 10 МБ</div>
+                        </div>
+                        <div class="my-btn opacity-btn title10 photos__btn">
+                            Загрузить фото
+                        </div>
+                    </div>
+                ') ?>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rooms">
+        <div class="info-block rooms__info-block">
+        <span class="title16 bold rooms__span">
+            Квартиры
+        </span>
+            <div class="rooms__block">
+                <?php
+                for ($i = 1; $i <= 6; $i++) {
+                    ?>
+                    <div class="rooms__card">
+                        <div class="rooms__plan">
+                            <div class="title16 bold rooms__sircle">+7</div>
+                            <img src="<?= $baseUrl ?>/img/plan.png" alt="plan" class="object-fit">
+                        </div>
+                        <div class="rooms__info">
+                            <div class="title16 bold rooms__name">2-комн. квартира, 42,21 м² в ЖК «Gray (Грэй)»</div>
+                            <div class="title16 regular rooms__descr">Цена: 5 680 000 ₽</div>
+                            <div class="title16 regular rooms__descr">2-комнатная, 1.2 корпус</div>
+                            <div class="title16 regular rooms__descr rooms__book">Забронировано</div>
+                        </div>
+                    </div>
+                    <?php
+                }
+                ?>
+                <div class="rooms__card rooms__take">
+
+                </div>
+                <div class="rooms__card rooms__take">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
     <?php ActiveForm::end(); ?>
 </div>
 
