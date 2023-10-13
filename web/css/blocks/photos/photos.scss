@@ -34,12 +34,14 @@
   &__upload {
     margin-top: 30px;
   }
+  &__mb10 {
+    margin-bottom: 10px;
+  }
   &__custom-inp {
     width: 100%;
     padding: 16px 32px;
     border: 1px dashed $interface;
     border-radius: 10px;
-    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,5 +62,27 @@
     width: 134px;
     height: 40px;
     padding: 12px 16px;
+  }
+  &__input {
+    display: none;
+  }
+  &__uploaded {
+    margin-top: 24px;
+    padding-bottom: 16px;
+    display: flex;
+    column-gap: 20px;
+  }
+  &__uploaded-photo {
+    max-width: 151px;
+    height: 127px;
+    width: 100%;
+    position: relative;
+    img {
+      border-radius: 8px;
+    }
+  }
+  &__delete-upload {
+    right: 5px;
+    top: 5px;
   }
 }

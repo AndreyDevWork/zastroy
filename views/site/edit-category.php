@@ -38,7 +38,7 @@ use yii\bootstrap5\Html;
             <?= $form->field($model, 'username')->textInput(['value' => 'ЖК «61 Квартал»', 'required' => 'false'])->label('Название') ?>
             <?= $form->field($model, 'username')->textInput(['value' => '8272', 'disabled' => true])->label('ID') ?>
             <div class="select-width">
-                <div class="title14">Ответственный</div>
+                <label  for="position" class="title14">Ответственный</label>
                 <div class="select-wrapper">
                     <img class="select-arrow" src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="icon">
                     <select class="select" name="position" id="position">
@@ -94,20 +94,35 @@ use yii\bootstrap5\Html;
                     <img src="<?= $baseUrl ?>/img/product/photo5.png" alt="photo" class="object-fit">
                 </div>
             </div>
-
-            <div class="photos__upload">
-                <div class="title12">Загрузка фото</div>
-                <div class="photos__custom-inp">
-                    <div class="photos__upload-icon">
-                        <img src="<?= $baseUrl ?>/img/icon-svg/upload.svg" alt="upload">
+            <div class="photos__upload" id="drop-area">
+                <div class="title12 photos__mb10">Загрузка фото</div>
+                <?= $form->field($model, 'username')->fileInput(['class' => 'photos__input', 'id' => 'file-input'])->label('
+                    <div class="photos__custom-inp">
+                        <div class="photos__upload-icon">
+                            <img src="' . $baseUrl . '/img/icon-svg/upload.svg" alt="upload">
+                        </div>
+                        <div class="photos__upload-text">
+                            <div class="title13">Выберите файл или перетащите его сюда</div>
+                            <div class="title12 photos__format">JPG,  или PNG, размер файла не более 10 МБ</div>
+                        </div>
+                        <div class="my-btn opacity-btn title10 photos__btn">
+                            Загрузить фото
+                        </div>
                     </div>
-                    <div class="photos__upload-text">
-                        <div class="title13">Выберите файл или перетащите его сюда</div>
-                        <div class="title12 photos__format">JPG,  или PNG, размер файла не более 10 МБ</div>
+                ') ?>
+            </div>
+            <div class="photos__uploaded">
+                <div class="photos__uploaded-photo">
+                    <div class="photos__delete photos__delete-upload">
+                        <img src="<?= $baseUrl ?>/img/icon-svg/x.svg" alt="delete">
                     </div>
-                    <div class="my-btn opacity-btn title10 photos__btn">
-                        Загрузить фото
+                    <img class="object-fit" src="<?= $baseUrl ?>/img/about-photo.png" alt="photo">
+                </div>
+                <div class="photos__uploaded-photo">
+                    <div class="photos__delete photos__delete-upload">
+                        <img src="<?= $baseUrl ?>/img/icon-svg/x.svg" alt="delete">
                     </div>
+                    <img class="object-fit" src="<?= $baseUrl ?>/img/about-photo.png" alt="photo">
                 </div>
             </div>
         </div>
