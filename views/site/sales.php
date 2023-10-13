@@ -12,11 +12,11 @@ $this->params['breadcrumbs'][] = $this->title;
     <div>
         <h1 class="sales__header title34">Отчеты по продажам</h1>
         <div class="sales__selects">
-            <div class="sales__select">
-                <div class="title14 sales__position-wrapper">Руководитель</div>
-                <div class="select-wrapper sales__select-wrapper">
+            <div class="select-width">
+                <div class="title14">Руководитель</div>
+                <div class="select-wrapper">
                     <img class="select-arrow" src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="icon">
-                    <select class="select sales__position" name="position" id="position">
+                    <select class="select" name="position" id="position">
                         <option disabled>Все</option>
                         <option>Все</option>
                         <option>Спиридонов Максим Ярославович</option>
@@ -28,11 +28,11 @@ $this->params['breadcrumbs'][] = $this->title;
                     </select>
                 </div>
             </div>
-            <div class="sales__select">
-                <div class="title14 sales__position-wrapper">Менеджер</div>
-                <div class="select-wrapper sales__select-wrapper">
+            <div class="select-width">
+                <div class="title14">Менеджер</div>
+                <div class="select-wrapper">
                     <img class="select-arrow" src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="icon">
-                    <select class="select sales__position" name="position" id="position">
+                    <select class="select" name="position2" id="position2">
                         <option disabled>Все</option>
                         <option>Все</option>
                         <option>Спиридонов Максим Ярославович</option>

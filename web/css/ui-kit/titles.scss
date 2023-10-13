@@ -21,6 +21,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  margin-bottom: 0;
 }
 .title22 {
   color: $header-title;
@@ -53,6 +54,13 @@
   line-height: 20px;
   margin-bottom: 0;
 }
+.title13  {
+  color: $gray13;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .title12 {
   color: $gray-hard;
   font-size: 12px;
@@ -60,6 +68,14 @@
   font-weight: 400;
   line-height: 28px;
   margin-bottom: 0;
+}
+.title10 {
+  color: $interface;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 

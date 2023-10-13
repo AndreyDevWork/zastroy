@@ -1,8 +1,17 @@
 .mb-3 {
+  display: flex;
+  flex-direction: column;
   .input {
+    color: $input;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
     width: 100%;
     height: 50px;
     border-radius: 16px;
+    margin-top: 13px;
     border: 1px solid #E0E5F2;
     background: #FFF;
     outline: none;
@@ -20,5 +29,19 @@
   }
   .is-invalid {
     border: 1px solid $attention;
+  }
+  input[disabled] {
+    background: #FAFBFF;
+  }
+  input[type=checkbox] {
+    margin-top: 0;
+    width: 18px;
+    height: 18px;
+  }
+  .custom-checkbox {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 10px;
   }
 }
