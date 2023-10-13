@@ -191,11 +191,13 @@ use yii\bootstrap5\Html;
                     <?php
                 }
                 ?>
-                <div class="rooms__card rooms__take">
-
+                <div class="rooms__card rooms__add">
+                    <img src="<?= $baseUrl ?>/img/icon-svg/create-room.svg" alt="create" class="rooms__icon-create">
+                    <div class="rooms__create-title titl12">Добавить квартиру</div>
                 </div>
-                <div class="rooms__card rooms__take">
-
+                <div class="rooms__card rooms__add">
+                    <img src="<?= $baseUrl ?>/img/icon-svg/create-room.svg" alt="create" class="rooms__icon-create">
+                    <div class="rooms__create-title titl12">Добавить квартиру</div>
                 </div>
             </div>
         </div>

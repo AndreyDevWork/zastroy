@@ -1765,9 +1765,20 @@ body .container {
 .rooms__book {
   color: #009FE3;
 }
-.rooms__take {
+.rooms__add {
   border: 1px dashed #CCC;
   background: #FAFAFA;
+  display: flex;
+  row-gap: 14px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.rooms__create-title {
+  width: 94px;
+  text-align: center;
+  color: #4C535F;
 }
 
 .edit-category {
