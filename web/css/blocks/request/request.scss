@@ -18,6 +18,8 @@
   }
   &__title {
     color: $text-gray;
+    display: flex;
+    column-gap: 7px;
   }
   &__row {
     padding-left: 20px;

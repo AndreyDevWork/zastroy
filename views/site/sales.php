@@ -9,7 +9,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 <section class="sales">
-    <div>
         <h1 class="sales__header title34">Отчеты по продажам</h1>
         <div class="sales__selects">
             <div class="select-width">
@@ -99,7 +98,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
             </div>
         </div>
-    </div>
 
 
 </section>

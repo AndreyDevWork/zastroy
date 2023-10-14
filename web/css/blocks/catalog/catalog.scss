@@ -20,17 +20,23 @@
     align-items: center;
   }
   &__rows {
+    padding-top: 14px;
+    padding-bottom: 35px;
     padding-right: 35px;
+    row-gap: 11px;
     padding-left: 30px;
+    display: flex;
+    flex-direction: column;
   }
   &__row-holder {
     display: flex;
-    justify-content: space-between;
+    column-gap: 20px;
   }
   &__row-first {
-    padding: 21px 0 21px 0px;
     display: flex;
     column-gap: 39px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   &__title {
     color: $text-gray;
@@ -98,11 +104,13 @@
   }
 
   &__row-last {
-    width: 80px;
+    padding: 10px 15px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 21px 0 21px 0px;
+    border: 1px solid #E9EFF4;
+    border-radius: 5px;
   }
   &__delete {
     width: 20px;
@@ -111,6 +119,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  &__btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
   }
   &__to {
     width: 30px;

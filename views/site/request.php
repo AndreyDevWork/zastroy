@@ -23,7 +23,7 @@ $pagination = new Pagination([
         <div class="request__rows">
             <div class="request__column">
                 <div class="title14 request__title">№</div>
-                <div class="title14 request__title">Имя клиента</div>
+                <div class="title14 request__title">Имя клиента <div class="sort-btn"><img src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="sort"></div></div>
                 <div class="title14 request__title">Телефон</div>
                 <div class="title14 request__title">Наименование</div>
                 <div class="title14 request__title">Цена</div>

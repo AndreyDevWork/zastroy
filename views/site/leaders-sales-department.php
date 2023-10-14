@@ -25,7 +25,7 @@ $pagination = new Pagination([
     <div class="info-block department__table">
         <div class="department__columns">
             <div class="title14 department__title">№</div>
-            <div class="title14 department__title">ФИО руководителя</div>
+            <div class="title14 department__title">ФИО руководителя <div class="sort-btn"><img src="<?= $baseUrl ?>/img/icon-svg/arrow-bottom.svg" alt="sort"></div></div>
             <div class="title14 department__title">E-mail</div>
             <div class="title14 department__title">Телефон</div>
             <div class="title14 department__title">Город</div>
