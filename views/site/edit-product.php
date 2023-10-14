@@ -119,5 +119,27 @@ use yii\bootstrap5\Html;
             </div>
         </div>
     </div>
+    <section class="stats">
+        <div class="info-block stats__info-block">
+            <div class="tabs">
+                <div class="title16 regular tabs__tab tabs__tab_active">Характеристики</div>
+                <div class="title16 regular tabs__tab">О комплексе</div>
+                <div class="title16 regular tabs__tab">О доме</div>
+                <div class="title16 regular tabs__tab">Дополнительная информация</div>
+                <div class="title16 regular tabs__tab">Видео</div>
+            </div>
+            <div class="stats__form">
+                <?= $form->field($model, 'username')->textInput(['value' => 'Новосстройка', 'required' => 'false'])->label('Тип квартиры<span class="input__required">*</span>', ['class' => 'title14 regular stats__label' ]) ?>
+                <?= $form->field($model, 'username')->textInput(['value' => '1/10', 'required' => 'false'])->label('Этаж<span class="input__required">*</span>', ['class' => 'title14 regular stats__label']) ?>
+                <?= $form->field($model, 'username')->textInput(['value' => '42,21 м3', 'required' => 'false'])->label('Площадь<span class="input__required">*</span>', ['class' => 'title14 regular stats__label']) ?>
+                <?= $form->field($model, 'username')->textInput(['value' => 'без отделки', 'required' => 'false'])->label('Отделка<span class="input__required">*</span>', ['class' => 'title14  stats__label']) ?>
+                <?= $form->field($model, 'username')->textInput(['value' => 'г.Ростов-На-Дону, ул. Ленина, 3, 1 подъезд, 11 этаж', 'required' => 'false'])->label('Адрес<span class="input__required">*</span>', ['class' => 'title14 regular stats__label']) ?>
+            </div>
+            <div class="stats__add">
+                <img src="<?= $baseUrl ?>/img/icon-svg/plus.svg" alt="plus">
+                <div class="title13">Добавить поле</div>
+            </div>
+        </div>
+    </section>
     <?php ActiveForm::end(); ?>
 </div>
