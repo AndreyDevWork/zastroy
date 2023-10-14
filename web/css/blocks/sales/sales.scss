@@ -117,6 +117,7 @@
     column-gap: 39px;
     padding-top: 10px;
     padding-bottom: 10px;
+    align-items: center;
   }
   &__icon-wrapper {
     width: 27px;
@@ -146,13 +147,25 @@
   &__to {
     width: 30px;
     height: 30px;
-    background: #009FE3;
+    background: $interface;
     border-radius: 7px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.2s all;
+    path {
+      transition: 0.2s all;
+    }
   }
+  &__to_active {
+    background: white;
+    path {
+      transition: 0.2s all;
+      fill: $interface;;
+    }
+  }
+
   &__fio {
     padding-left: 15px;
   }
