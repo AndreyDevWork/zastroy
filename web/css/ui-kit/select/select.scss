@@ -13,8 +13,12 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  label {
+    line-height: 100%;
+  }
 }
 .new-select {
+  margin-top: 13px;
   position: relative;
   height: 50px;
   border-radius: 16px;
@@ -98,7 +102,7 @@
   width: 18px;
   position: absolute;
   right: 20px;
-  top: 50%;
+  top: 39px;
   transform: translateY(-50%);
   transition: 0.2s all;
   z-index: 1;
@@ -110,5 +114,5 @@
 
 .select-wrapper {
   position: relative;
-  margin-top: 13px
+  //margin-top: 13px
 }

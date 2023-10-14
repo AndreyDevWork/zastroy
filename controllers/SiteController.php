@@ -192,7 +192,8 @@ class SiteController extends Controller
     }
     public function actionEditProduct()
     {
+        $model = new LoginForm();
         $baseUrl = \Yii::$app->request->baseUrl;
-        return $this->render('edit-product', ['baseUrl' => $baseUrl]);
+        return $this->render('edit-product', ['model' => $model, 'baseUrl' => $baseUrl]);
     }
 }

@@ -11,7 +11,7 @@ $this->title = 'Product';
         </a>
         <div class="header-section">
             <h1 class="title28">2-комн. квартира, 42,21 м² в ЖК «Gray (Грэй)»</h1>
-            <div class="my-btn">Редактировать</div>
+            <div class="my-btn"><img src="<?= $baseUrl ?>/img/icon-svg/edit.svg" alt="edit"> Редактировать</div>
         </div>
         <div class="category__data">
             <div class="category__info">

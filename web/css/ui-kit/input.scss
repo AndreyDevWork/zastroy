@@ -1,6 +1,9 @@
 .mb-3 {
   display: flex;
   flex-direction: column;
+  label {
+    line-height: 100%;
+  }
   .input {
     color: $input;
     font-family: DM Sans;

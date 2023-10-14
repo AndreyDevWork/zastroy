@@ -28,8 +28,8 @@ use yii\bootstrap5\Html;
             <h1 class="title28">Редактировать</h1>
             <div class="header-section__btns">
                 <?= Html::submitButton('<img src="' . Yii::$app->request->baseUrl . '/img/icon-svg/save.svg" alt="save"> Сохранить',
-                    ['class' => 'my-btn edit-category__btn', 'name' => 'edit-button', 'encode' => false]) ?>
-                <div class="my-btn opacity-btn edit-category__btn">
+                    ['class' => 'my-btn header-section__btn', 'name' => 'edit-button', 'encode' => false]) ?>
+                <div class="my-btn opacity-btn header-section__btn">
                     Отмена
                 </div>
             </div>

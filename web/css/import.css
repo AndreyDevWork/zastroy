@@ -743,6 +743,9 @@ body a {
   display: flex;
   flex-direction: column;
 }
+.mb-3 label {
+  line-height: 100%;
+}
 .mb-3 .input {
   color: #343434;
   font-family: DM Sans;
@@ -832,8 +835,12 @@ body .breadcrumb a:hover {
   display: flex;
   flex-direction: column;
 }
+.select-width label {
+  line-height: 100%;
+}
 
 .new-select {
+  margin-top: 13px;
   position: relative;
   height: 50px;
   border-radius: 16px;
@@ -915,7 +922,7 @@ body .breadcrumb a:hover {
   width: 18px;
   position: absolute;
   right: 20px;
-  top: 50%;
+  top: 39px;
   transform: translateY(-50%);
   transition: 0.2s all;
   z-index: 1;
@@ -927,7 +934,6 @@ body .breadcrumb a:hover {
 
 .select-wrapper {
   position: relative;
-  margin-top: 13px;
 }
 
 .info-block {
@@ -1047,6 +1053,10 @@ body .container {
   display: flex;
   column-gap: 24px;
 }
+.header-section__btn {
+  width: 177px;
+  column-gap: 10px;
+}
 
 .back {
   display: flex;
@@ -1116,7 +1126,7 @@ body .container {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 53px;
+  top: 43px;
   right: 13px;
   cursor: pointer;
   display: flex;
@@ -1964,6 +1974,16 @@ body .container {
 
 .edit-product {
   margin-top: 28px;
+}
+.edit-product__form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 14px;
+  margin-top: 25px;
+}
+.edit-product .mb-3 {
+  margin-bottom: 0 !important;
 }
 
 /*# sourceMappingURL=import.css.map */
