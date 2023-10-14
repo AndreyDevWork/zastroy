@@ -811,6 +811,7 @@ body .breadcrumb .active {
   font-weight: 500;
   line-height: 100%;
   color: #707EAE;
+  line-height: 20px;
 }
 body .breadcrumb a {
   color: #707EAE;
@@ -1990,9 +1991,9 @@ body .container {
 .stats__add {
   display: flex;
   column-gap: 12px;
-  margin-top: 25px;
+  margin-top: 15px;
   cursor: pointer;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 5px;
   align-items: center;
   width: 130px;

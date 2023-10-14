@@ -10,6 +10,7 @@ body {
     .active {
       @include title14;
       color: $beige;
+      line-height: 20px;
     }
     a {
       color: $beige;
