@@ -1,0 +1,30 @@
+.leader {
+  margin-top: 28px;
+  padding-bottom: 120px;
+  &__header {
+    margin-top: 10px;
+  }
+  &__sub-title {
+    margin-top: 10px;
+  }
+  &__wrapper {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: minmax(300px, 1112px) minmax(300px, 697px);
+    margin-top: 20px;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  &__info {
+    padding: 23px 15px 37px 24px;
+  }
+  &__menegers {
+    padding: 25px 37px 26px 28px;
+  }
+  &__month {
+    padding: 30px 30px 88px 30px;
+  }
+}

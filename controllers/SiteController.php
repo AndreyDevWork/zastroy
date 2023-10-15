@@ -202,4 +202,10 @@ class SiteController extends Controller
         $baseUrl = \Yii::$app->request->baseUrl;
         return $this->render('sales-person', ['baseUrl' => $baseUrl]);
     }
+
+    public function actionLeader()
+    {
+        $baseUrl = \Yii::$app->request->baseUrl;
+        return $this->render('leader', ['baseUrl' => $baseUrl]);
+    }
 }

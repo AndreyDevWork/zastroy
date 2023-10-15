@@ -2209,4 +2209,35 @@ body .container {
   margin-bottom: 0 !important;
 }
 
+.leader {
+  margin-top: 28px;
+  padding-bottom: 120px;
+}
+.leader__header {
+  margin-top: 10px;
+}
+.leader__sub-title {
+  margin-top: 10px;
+}
+.leader__wrapper {
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: minmax(300px, 1112px) minmax(300px, 697px);
+  margin-top: 20px;
+}
+.leader__left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.leader__info {
+  padding: 23px 15px 37px 24px;
+}
+.leader__menegers {
+  padding: 25px 37px 26px 28px;
+}
+.leader__month {
+  padding: 30px 30px 88px 30px;
+}
+
 /*# sourceMappingURL=import.css.map */
