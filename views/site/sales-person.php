@@ -61,13 +61,71 @@ $pagination = new Pagination([
                             <div class="sales__row-last">
                                 <div class="sales__info">
                                     <div class="sales__item">
-                                        <div class="title14">Воробьева Аделина Фёдоровна</div>
+                                        <div class="title14 regular">Воробьева Аделина Фёдоровна</div>
                                     </div>
                                 </div>
                                 <div class="sales__to">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewBox="0 0 18 10" fill="none">
                                         <path d="M14.5979 0.488155C15.2618 -0.162718 16.3382 -0.162718 17.0021 0.488155C17.666 1.13903 17.666 2.1943 17.0021 2.84518L10.2021 9.51184C9.53819 10.1627 8.46181 10.1627 7.79792 9.51184L0.997918 2.84518C0.334027 2.1943 0.334027 1.13903 0.997918 0.488155C1.66181 -0.162718 2.73819 -0.162718 3.40208 0.488155L9 5.97631L14.5979 0.488155Z" fill="white"/>
                                     </svg>
+                                </div>
+                            </div>
+                            <div class="sales__person">
+                                <div class="sales__person-wrapper">
+                                    <div class="sales__person-diagram">
+                                        <div style="
+                                           background: conic-gradient(
+                                                #9AE1FF 0% 19%,
+                                                #009FE3 19% 54%,
+                                                #028DC8 54% 82%,
+                                                #D8F3FF 82% 100%
+                                            );
+                                            " class="diagram">
+                                        </div>
+                                    </div>
+                                    <div class="diagram-info sales__diagram-info">
+                                        <div class="diagram-info__index sales__index">
+                                            <div class="diagram-info__wrapper-span sales__wrapper-span">
+                                                <span class="diagram-info__span diagram-info__span1 sales__diagram-info-span"></span>
+                                            </div>
+
+                                            <div class="title14 sales__index-name sales__index-name1">Общее количество объектов</div>
+                                        </div>
+                                        <div class="title25 diagram-info__number sales__number">570</div>
+                                    </div>
+
+                                    <div class="diagram-info sales__diagram-info">
+                                        <div class="diagram-info__index sales__index">
+                                            <div class="diagram-info__wrapper-span sales__wrapper-span">
+                                                <span class="diagram-info__span diagram-info__span2 sales__diagram-info-span"></span>
+                                            </div>
+
+                                            <div class="title14 sales__index-name sales__index-name2">Проданные объекты</div>
+                                        </div>
+                                        <div class="title25 diagram-info__number sales__number">120</div>
+                                    </div>
+
+                                    <div class="diagram-info sales__diagram-info">
+                                        <div class="diagram-info__index sales__index">
+                                            <div class="diagram-info__wrapper-span sales__wrapper-span">
+                                                <span class="diagram-info__span diagram-info__span3 sales__diagram-info-span"></span>
+                                            </div>
+
+                                            <div class="title14 sales__index-name sales__index-name3">В работе</div>
+                                        </div>
+                                        <div class="title25 diagram-info__number sales__number">36</div>
+                                    </div>
+
+                                    <div class="diagram-info sales__diagram-info">
+                                        <div class="diagram-info__index sales__index">
+                                            <div class="diagram-info__wrapper-span sales__wrapper-span">
+                                                <span class="diagram-info__span diagram-info__span3 sales__diagram-info-span"></span>
+                                            </div>
+
+                                            <div class="title14 sales__index-name sales__index-name2">Неактивные объекты</div>
+                                        </div>
+                                        <div class="title25 diagram-info__number sales__number">68</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

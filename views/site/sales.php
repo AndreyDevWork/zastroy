@@ -68,28 +68,36 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="sales__info">
                         <div class="diagram-info">
                             <div class="diagram-info__index">
-                                <span class="diagram-info__span diagram-info__span1"></span>
+                                <div class="diagram-info__wrapper-span">
+                                    <span class="diagram-info__span diagram-info__span1"></span>
+                                </div>
                                 <div class="title18 sales__index-name">Общее количество объектов</div>
                             </div>
                             <div class="title54 diagram-info__number">570</div>
                         </div>
                         <div class="diagram-info">
                             <div class="diagram-info__index">
-                                <span class="diagram-info__span diagram-info__span2"></span>
+                                <div class="diagram-info__wrapper-span">
+                                    <span class="diagram-info__span diagram-info__span2"></span>
+                                </div>
                                 <div class="title18 sales__index-name">В работе</div>
                             </div>
                             <div class="title54 diagram-info__number">100</div>
                         </div>
                         <div class="diagram-info">
                             <div class="diagram-info__index">
-                                <span class="diagram-info__span diagram-info__span3"></span>
+                                <div class="diagram-info__wrapper-span">
+                                    <span class="diagram-info__span diagram-info__span3"></span>
+                                </div>
                                 <div class="title18 sales__index-name">Проданные объекты</div>
                             </div>
                             <div class="title54 diagram-info__number">250</div>
                         </div>
                         <div class="diagram-info">
                             <div class="diagram-info__index">
-                                <span class="diagram-info__span diagram-info__span4"></span>
+                                <div class="diagram-info__wrapper-span">
+                                    <span class="diagram-info__span diagram-info__span4"></span>
+                                </div>
                                 <div class="title18 sales__index-name">Неактивные объекты</div>
                             </div>
                             <div class="title54 diagram-info__number">45</div>

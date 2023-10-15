@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 45px auto;
   grid-template-rows: auto auto;
+  column-gap: 18px;
   &__index {
     grid-column: 1/3;
     display: flex;
@@ -13,6 +14,9 @@
     height: 16px;
     border-radius: 7px;
     display: block;
+  }
+  &__wrapper-span {
+    width: 45px;
   }
   &__span1 {
     background: $interface;
@@ -29,6 +33,5 @@
   &__number {
     margin-top: 5px;
     grid-column: 2/3;
-    padding-left: 18px;
   }
 }
