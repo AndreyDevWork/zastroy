@@ -29,7 +29,9 @@ class AppAsset extends AssetBundle
         'css/blocks/admin/admin.js',
         'css/blocks/photos/photos.js',
         'css/blocks/sales/sales.js',
+        'css/blocks/leader/avatar.js',
         'css/ui-kit/select/select.js',
+
     ];
     public $depends = [
         'yii\web\YiiAsset',

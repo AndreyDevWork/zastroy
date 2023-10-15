@@ -16,7 +16,14 @@ $this->title = 'Leader';
         <div class="leader__wrapper">
             <div class="leader__left">
                 <div class="info-block leader__info">
-
+                    <div class="leader__photo-wrapper">
+                        <div class="title14 leader__title">Фото</div>
+                        <div class="leader__photo" id="drop-area-avatar">
+                            <form action="">
+                                <input type="file" name="avatar-input" id="fileInput" class="leader__avatar-input">
+                            </form>
+                        </div>
+                    </div>
                 </div>
                 <div class="info-block leader__menegers">
 
