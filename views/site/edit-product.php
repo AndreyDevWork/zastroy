@@ -135,7 +135,7 @@ use yii\bootstrap5\Html;
                 <?= $form->field($model, 'username')->textInput(['value' => 'без отделки', 'required' => 'false'])->label('Отделка<span class="input__required">*</span>', ['class' => 'title14  stats__label']) ?>
                 <?= $form->field($model, 'username')->textInput(['value' => 'г.Ростов-На-Дону, ул. Ленина, 3, 1 подъезд, 11 этаж', 'required' => 'false'])->label('Адрес<span class="input__required">*</span>', ['class' => 'title14 regular stats__label']) ?>
             </div>
-            <div class="stats__add">
+            <div class="add-line">
                 <img src="<?= $baseUrl ?>/img/icon-svg/plus.svg" alt="plus">
                 <div class="title13">Добавить поле</div>
             </div>

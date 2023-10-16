@@ -55,25 +55,72 @@ $this->title = 'Leader';
                     <div class="title18">Менеджеры в подчинении</div>
                     <div class="leader__mengr-list">
                         <?php
-                            for ($i = 0; $i <= 6; $i++) {
+                            for ($i = 0; $i <= 4; $i++) {
                                 ?>
                                 <div class="leader__mengr-item">
                                     <div class="leader__meneger">
-                                        <div class="leader__mengr-photo"></div>
+                                        <div class="leader__mengr-photo">
+                                            <img src="<?= $baseUrl ?>/img/meneger.png" alt="photo" class="object-fit">
+                                        </div>
                                         <div class="leader__mengr-info">
-                                            <div class="title14 regular">Зайцев Пётр Ильич</div>
+                                            <div class="title14 bold">Зайцев Пётр Ильич</div>
                                             <div class="title12">Менеджер продаж</div>
                                         </div>
+                                    </div>
+
+                                    <div class="leader__mengr-btns">
+                                        <img class="leader__edit-btn" src="<?= $baseUrl ?>/img/icon-svg/pencil-alt.svg" alt="icon">
+                                        <img class="leader__delete-btn" src="<?= $baseUrl ?>/img/icon-svg/trash.svg" alt="icon">
                                     </div>
                                 </div>
                                 <?
                             }
-
                         ?>
+                    </div>
+                    <div class="add-line">
+                        <img src="<?= $baseUrl ?>/img/icon-svg/plus.svg" alt="plus">
+                        <div class="title13">Добавить поле</div>
                     </div>
                 </div>
             </div>
-            <div class="info-block leader__month">
+            <div class="info-block month">
+                <div class="title18 month__title18">Месяц</div>
+                <div class="title22 month__date">Сентябрь 2023 год</div>
+                <div class="month__wrapper">
+                    <div class="month__diagram">
+                        <div style="
+                       background: conic-gradient(
+                            #9AE1FF 0% 19%,
+                            #009FE3 19% 54%,
+                            #028DC8 54% 82%,
+                            #D8F3FF 82% 100%
+                        );
+                        " class="diagram">
+                        </div>
+                    </div>
+                    <hr class="month__hr">
+                </div>
+                <div class="month__stats">
+                    <div class="diagram-info">
+                        <div class="title18 sales__index-name">Общее количество объектов</div>
+                        <div class="title54 diagram-info__number">570</div>
+                    </div>
+
+                    <div class="diagram-info">
+                        <div class="title18 sales__index-name">Общее количество объектов</div>
+                        <div class="title54 diagram-info__number">570</div>
+                    </div>
+
+                    <div class="diagram-info">
+                        <div class="title18 sales__index-name">Общее количество объектов</div>
+                        <div class="title54 diagram-info__number">570</div>
+                    </div>
+
+                    <div class="diagram-info">
+                        <div class="title18 sales__index-name">Общее количество объектов</div>
+                        <div class="title54 diagram-info__number">570</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -23,6 +23,10 @@
       height: 14px;
     }
   }
+  &__contacts {
+    max-width: 500px;
+    width: 100%;
+  }
   &__photo-wrapper {
     border: 1px solid #E0E2E7;
     border-radius: 8px;
@@ -90,7 +94,9 @@
   &__contact-wrapper {
     margin-top: 7px;
     display: grid;
-    grid-template-columns: 174px auto;
+    justify-content: space-between;
+    column-gap: 20px;
+    grid-template-columns: auto auto;
   }
   &__contact-item {
     padding: 12px 0;
