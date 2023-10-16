@@ -24,6 +24,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fileInputAvatar.addEventListener('change', () => {
         const files = fileInputAvatar.files;
-        // Вы можете здесь добавить ваш код для обработки выбранных файлов, если необходимо
     });
 })

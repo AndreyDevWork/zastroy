@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         let files = dt.files;
         let targetInput = e.target.closest('.photos__upload').querySelector('input[type="file"]');
 
-        // Передаем файл только в целевой инпут
         if (files.length > 0) {
             targetInput.files = files;
         }
