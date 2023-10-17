@@ -18,7 +18,7 @@ use yii\bootstrap5\Html;
         <div class="title14 regular leader__sub-title">Руководитель отдела продаж</div>
         <div class="leader__wrapper">
             <div class="leader__left">
-                <div class="info-block contact">
+                <div class="info-block contact contact-edit">
                     <div class="contact__left-block">
                         <div class="contact__photo-wrapper">
                             <div class="title14 contact__title">Фото</div>
@@ -53,7 +53,14 @@ use yii\bootstrap5\Html;
                         ]); ?>
                         <div class="title18">Контактная информация</div>
                         <div class="contact__contact-wrapper">
-                            <?= $form->field($model, 'username')->textInput(['autofocus' => false, 'value' => 'Спиридонов Максим Ярославович' , 'placeholder' => 'mail@simmmple.com'])->label('Email<span class="input__required">*</span>') ?>
+                            <?= $form->field($model, 'username')->textInput(['autofocus' => false, 'value' => 'Спиридонов Максим Ярославович'])->label('ФИО<span class="input__required">*</span>') ?>
+                            <?= $form->field($model, 'password')->textInput(['autofocus' => false, 'placeholder' => 'info@gmail.com'])->label('Email<span class="input__required">*</span>') ?>
+                            <?= $form->field($model, 'password')->textInput(['autofocus' => false, 'placeholder' => '+7(___)-___-___'])->label('Телефон<span class="input__required">*</span>') ?>
+                            <?= $form->field($model, 'passwordd')->textInput(['autofocus' => false, 'class' => 'input contact__city'])->label('Город<span class="input__required">*</span>') ?>
+                        </div>
+                        <div class="contact__edit-pass">
+                            <?= $form->field($model, 'passworddd')->textInput(['autofocus' => false, 'class' => 'input contact__city'])->label('Пароль<span class="input__required">*</span>') ?>
+                            <div class="my-btn opacity-btn title16 contact__opacity-btn">Cгенерировать пароль</div>
                         </div>
                         <?php ActiveForm::end(); ?>
                     </div>
