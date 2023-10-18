@@ -72,6 +72,95 @@ use yii\bootstrap5\Html;
                     </div>
                 </div>
 
+                <div class="info-block leader__menegers">
+                    <div class="title18">Менеджеры в подчинении</div>
+                    <div class="leader__mengr-list">
+                        <div class="leader__mengr-item">
+                            <div class="leader__meneger">
+                                <div class="leader__mengr-photo">
+                                    <img src="/web/img/meneger.png" alt="photo" class="object-fit">
+                                </div>
+                                <div class="leader__mengr-info">
+                                    <div class="title14 bold">Зайцев Пётр Ильич</div>
+                                    <div class="title12">Менеджер продаж</div>
+                                </div>
+                            </div>
+
+                            <div class="leader__mengr-btns">
+                                <img class="leader__edit-btn" src="/web/img/icon-svg/pencil-alt.svg" alt="icon">
+                                <img class="leader__delete-btn" src="/web/img/icon-svg/trash.svg" alt="icon">
+                            </div>
+                        </div>
+                        <div class="leader__mengr-item">
+                            <div class="leader__meneger">
+                                <div class="leader__mengr-photo">
+                                    <img src="/web/img/meneger.png" alt="photo" class="object-fit">
+                                </div>
+                                <div class="leader__mengr-info">
+                                    <div class="title14 bold">Зайцев Пётр Ильич</div>
+                                    <div class="title12">Менеджер продаж</div>
+                                </div>
+                            </div>
+
+                            <div class="leader__mengr-btns">
+                                <img class="leader__edit-btn" src="/web/img/icon-svg/pencil-alt.svg" alt="icon">
+                                <img class="leader__delete-btn" src="/web/img/icon-svg/trash.svg" alt="icon">
+                            </div>
+                        </div>
+                        <div class="leader__mengr-item">
+                            <div class="leader__meneger">
+                                <div class="leader__mengr-photo">
+                                    <img src="/web/img/meneger.png" alt="photo" class="object-fit">
+                                </div>
+                                <div class="leader__mengr-info">
+                                    <div class="title14 bold">Зайцев Пётр Ильич</div>
+                                    <div class="title12">Менеджер продаж</div>
+                                </div>
+                            </div>
+
+                            <div class="leader__mengr-btns">
+                                <img class="leader__edit-btn" src="/web/img/icon-svg/pencil-alt.svg" alt="icon">
+                                <img class="leader__delete-btn" src="/web/img/icon-svg/trash.svg" alt="icon">
+                            </div>
+                        </div>
+                        <div class="leader__mengr-item">
+                            <div class="leader__meneger">
+                                <div class="leader__mengr-photo">
+                                    <img src="/web/img/meneger.png" alt="photo" class="object-fit">
+                                </div>
+                                <div class="leader__mengr-info">
+                                    <div class="title14 bold">Зайцев Пётр Ильич</div>
+                                    <div class="title12">Менеджер продаж</div>
+                                </div>
+                            </div>
+
+                            <div class="leader__mengr-btns">
+                                <img class="leader__edit-btn" src="/web/img/icon-svg/pencil-alt.svg" alt="icon">
+                                <img class="leader__delete-btn" src="/web/img/icon-svg/trash.svg" alt="icon">
+                            </div>
+                        </div>
+                        <div class="leader__mengr-item">
+                            <div class="leader__meneger">
+                                <div class="leader__mengr-photo">
+                                    <img src="/web/img/meneger.png" alt="photo" class="object-fit">
+                                </div>
+                                <div class="leader__mengr-info">
+                                    <div class="title14 bold">Зайцев Пётр Ильич</div>
+                                    <div class="title12">Менеджер продаж</div>
+                                </div>
+                            </div>
+
+                            <div class="leader__mengr-btns">
+                                <img class="leader__edit-btn" src="/web/img/icon-svg/pencil-alt.svg" alt="icon">
+                                <img class="leader__delete-btn" src="/web/img/icon-svg/trash.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-line">
+                        <img src="/web/img/icon-svg/plus.svg" alt="plus">
+                        <div class="title13">Добавить поле</div>
+                    </div>
+                </div>
             </div>
 
             <div class="info-block month">
