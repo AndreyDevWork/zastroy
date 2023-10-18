@@ -1,0 +1,26 @@
+.meneger {
+  &__houses {
+    height: 376px;
+    overflow: auto;
+    margin-top: 15px;
+    &::-webkit-scrollbar {
+      width: 15px; /* Ширина полосы прокрутки */
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $interface;
+      border-radius: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #FAFAFA;
+    }
+  }
+  &__list {
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-left: 0;
+    min-height: 577px;
+  }
+}
+

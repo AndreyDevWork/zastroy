@@ -6,17 +6,18 @@ $this->title = 'Meneger';
 
 
 <div class="container">
-    <section class="leader">
+    <section class="leader meneger">
         <a href="#" class="back">
             <img src="<?= $baseUrl ?>/img/icon-svg/arrow-left.svg" alt="arrow-left">
             <span class="back__span">Назад</span>
         </a>
         <h1 class="leader__header title34">Спиридонов Максим Ярославович</h1>
-        <div class="title14 regular leader__sub-title">Руководитель отдела продаж</div>
+        <div class="title14 regular leader__sub-title">Менеджер продаж</div>
 
         <div class="leader__wrapper">
             <div class="leader__left">
                 <div class="info-block contact">
+                    <div class="contact__delete"><img src="<?= $baseUrl ?>/img/icon-svg/delete.svg" alt="pen"></div>
                     <div class="contact__edit"><img src="<?= $baseUrl ?>/img/icon-svg/edit.svg" alt="pen"></div>
                     <div class="contact__photo-wrapper">
                         <div class="title14 contact__title">Фото</div>
@@ -62,37 +63,73 @@ $this->title = 'Meneger';
                         </div>
                     </div>
                 </div>
-                <div class="info-block leader__menegers">
-                    <div class="title18">Менеджеры в подчинении</div>
-                    <div class="leader__mengr-list">
-                        <?php
-                        for ($i = 0; $i <= 4; $i++) {
-                            ?>
-                            <div class="leader__mengr-item">
-                                <div class="leader__meneger">
-                                    <div class="leader__mengr-photo">
-                                        <img src="<?= $baseUrl ?>/img/meneger.png" alt="photo" class="object-fit">
-                                    </div>
-                                    <div class="leader__mengr-info">
-                                        <div class="title14 bold">Зайцев Пётр Ильич</div>
-                                        <div class="title12">Менеджер продаж</div>
-                                    </div>
-                                </div>
 
-                                <div class="leader__mengr-btns">
-                                    <img class="leader__edit-btn" src="<?= $baseUrl ?>/img/icon-svg/pencil-alt.svg" alt="icon">
-                                    <img class="leader__delete-btn" src="<?= $baseUrl ?>/img/icon-svg/trash.svg" alt="icon">
+                <div class="info-block leader__menegers">
+                    <div class="title18">Руководитель</div>
+                    <div class="leader__mengr-list">
+                        <div class="leader__mengr-item">
+                            <div class="leader__meneger">
+                                <div class="leader__mengr-photo">
+                                    <img src="<?= $baseUrl ?>/img/meneger.png" alt="photo" class="object-fit">
+                                </div>
+                                <div class="leader__mengr-info">
+                                    <div class="title14 bold">Зайцев Пётр Ильич</div>
+                                    <div class="title12">Менеджер продаж</div>
                                 </div>
                             </div>
-                            <?
-                        }
-                        ?>
-                    </div>
-                    <div class="add-line">
-                        <img src="<?= $baseUrl ?>/img/icon-svg/plus.svg" alt="plus">
-                        <div class="title13">Добавить поле</div>
+
+                            <div class="leader__mengr-btns">
+                                <img class="leader__edit-btn" src="<?= $baseUrl ?>/img/icon-svg/pencil-alt.svg" alt="icon">
+                                <img class="leader__delete-btn" src="<?= $baseUrl ?>/img/icon-svg/trash.svg" alt="icon">
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <div class="info-block leader__menegers">
+                    <div class="title18">Недвижимость</div>
+                    <div class="meneger__houses">
+                        <ul class="meneger__list">
+                            s    margin-top: 0;
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            margin-bottom: 0;
+                            s    margin-top: 0;
+                            s    margin-top: 0;
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            margin-bottom: 0;
+                            s    margin-top: 0;
+                            s    margin-top: 0;
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            margin-bottom: 0;
+                            s    margin-top: 0;
+                            s    margin-top: 0;
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            margin-bottom: 0;
+                            s    margin-top: 0;
+                            s    margin-top: 0;
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            margin-bottom: 0;
+                            s    margin-top: 0;
+
+                        </ul>
+                    </div>
+                </div>
+
             </div>
             <div class="info-block month">
                 <div class="title18 month__title18">Месяц</div>

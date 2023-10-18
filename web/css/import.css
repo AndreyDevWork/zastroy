@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap Reboot v5.3.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -2425,6 +2426,12 @@ body .container {
   color: #009FE3;
   cursor: pointer;
 }
+.contact__delete {
+  position: absolute;
+  right: 60px;
+  top: 18px;
+  cursor: pointer;
+}
 
 .contact-edit {
   padding-right: 27px;
@@ -2515,6 +2522,28 @@ body .container {
 }
 .month .diagram-info .title18 {
   color: #4C535F;
+}
+
+.meneger__houses {
+  height: 376px;
+  overflow: auto;
+  margin-top: 15px;
+}
+.meneger__houses::-webkit-scrollbar {
+  width: 15px; /* Ширина полосы прокрутки */
+}
+.meneger__houses::-webkit-scrollbar-thumb {
+  background-color: #009FE3;
+  border-radius: 8px;
+}
+.meneger__houses::-webkit-scrollbar-track {
+  background-color: #FAFAFA;
+}
+.meneger__list {
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-left: 0;
+  min-height: 577px;
 }
 
 /*# sourceMappingURL=import.css.map */
