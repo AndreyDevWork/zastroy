@@ -122,6 +122,9 @@
 }
 
 
+
+
+
 .contact-edit {
   padding-right: 27px;
   .contact__contacts {
@@ -145,13 +148,24 @@
     align-items: end;
     margin-top: 17px;
     .contact__opacity-btn {
-      width: 265px;
+      max-width: 265px;
       height: 50px;
+      width: 100%;
     }
   }
   .field-loginform-passworddd {
     max-width: 462px;
     width: 100%;
   }
-
+  .contact__edit-btns {
+    display: flex;
+    column-gap: 24px;
+    margin-top: 26px;
+  }
+  .contact__save-btn {
+    width: 177px;
+  }
+  .contact__cancel-btn {
+    width: 177px;
+  }
 }

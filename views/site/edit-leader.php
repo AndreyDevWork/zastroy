@@ -62,6 +62,12 @@ use yii\bootstrap5\Html;
                             <?= $form->field($model, 'passworddd')->textInput(['autofocus' => false, 'class' => 'input contact__city'])->label('Пароль<span class="input__required">*</span>') ?>
                             <div class="my-btn opacity-btn title16 contact__opacity-btn">Cгенерировать пароль</div>
                         </div>
+                        <div class="contact__edit-btns">
+                            <?= Html::submitButton('<img src="/web/img/icon-svg/save.svg" alt="save">Сохранить', ['class' => 'my-btn contact__save-btn', 'name' => 'login-button']) ?>
+                            <div class="my-btn opacity-btn contact__cancel-btn">
+                                Отмена
+                            </div>
+                        </div>
                         <?php ActiveForm::end(); ?>
                     </div>
                 </div>
