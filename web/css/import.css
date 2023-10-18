@@ -2329,13 +2329,13 @@ body .container {
   height: 14px;
 }
 .contact__contacts {
-  max-width: 500px;
   width: 100%;
 }
 .contact__photo-wrapper {
   border: 1px solid #E0E2E7;
   border-radius: 8px;
-  width: 264px;
+  max-width: 264px;
+  width: max-content;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -2399,11 +2399,12 @@ body .container {
 }
 .contact__contact-wrapper {
   margin-top: 12px;
+}
+.contact__ones {
   display: grid;
-  justify-content: space-between;
   column-gap: 20px;
-  row-gap: 17px;
-  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  grid-template-columns: 174px calc(50% - 10px);
+  border-bottom: 1px dashed #EBEBEB;
 }
 .contact__contact-item {
   padding: 12px 0;
@@ -2465,6 +2466,14 @@ body .container {
 }
 .contact-edit .contact__cancel-btn {
   width: 177px;
+}
+.contact-edit .edit__cont-wrapper {
+  margin-top: 12px;
+  display: grid;
+  justify-content: space-between;
+  column-gap: 20px;
+  row-gap: 17px;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
 }
 
 .month {

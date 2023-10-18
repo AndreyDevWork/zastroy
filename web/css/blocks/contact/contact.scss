@@ -24,13 +24,13 @@
     }
   }
   &__contacts {
-    max-width: 500px;
     width: 100%;
   }
   &__photo-wrapper {
     border: 1px solid #E0E2E7;
     border-radius: 8px;
-    width: 264px;
+    max-width: 264px;
+    width: max-content;
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -94,11 +94,12 @@
   }
   &__contact-wrapper {
     margin-top: 12px;
+  }
+  &__ones {
     display: grid;
-    justify-content: space-between;
     column-gap: 20px;
-    row-gap: 17px;
-    grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+    grid-template-columns: 174px calc(50% - 10px);
+    border-bottom: 1px dashed #EBEBEB;
   }
   &__contact-item {
     padding: 12px 0;
@@ -167,5 +168,13 @@
   }
   .contact__cancel-btn {
     width: 177px;
+  }
+  .edit__cont-wrapper {
+    margin-top: 12px;
+    display: grid;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 17px;
+    grid-template-columns: calc(50% - 10px) calc(50% - 10px);
   }
 }

@@ -52,7 +52,7 @@ use yii\bootstrap5\Html;
                             ],
                         ]); ?>
                         <div class="title18">Контактная информация</div>
-                        <div class="contact__contact-wrapper">
+                        <div class="contact__contact-wrapper edit__cont-wrapper">
                             <?= $form->field($model, 'username')->textInput(['autofocus' => false, 'value' => 'Спиридонов Максим Ярославович'])->label('ФИО<span class="input__required">*</span>') ?>
                             <?= $form->field($model, 'password')->textInput(['autofocus' => false, 'placeholder' => 'info@gmail.com'])->label('Email<span class="input__required">*</span>') ?>
                             <?= $form->field($model, 'password')->textInput(['autofocus' => false, 'placeholder' => '+7(___)-___-___'])->label('Телефон<span class="input__required">*</span>') ?>

@@ -208,6 +208,12 @@ class SiteController extends Controller
         $baseUrl = \Yii::$app->request->baseUrl;
         return $this->render('leader', ['baseUrl' => $baseUrl]);
     }
+
+    public function actionMeneger()
+    {
+        $baseUrl = \Yii::$app->request->baseUrl;
+        return $this->render('meneger', ['baseUrl' => $baseUrl]);
+    }
     public function actionEditLeader()
     {
         $model = new LoginForm();

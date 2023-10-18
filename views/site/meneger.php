@@ -1,8 +1,9 @@
 <?php
 $this->params['baseUrl'] = Yii::$app->request->baseUrl;
 
-$this->title = 'Leader';
+$this->title = 'Meneger';
 ?>
+
 
 <div class="container">
     <section class="leader">
@@ -65,26 +66,26 @@ $this->title = 'Leader';
                     <div class="title18">Менеджеры в подчинении</div>
                     <div class="leader__mengr-list">
                         <?php
-                            for ($i = 0; $i <= 4; $i++) {
-                                ?>
-                                <div class="leader__mengr-item">
-                                    <div class="leader__meneger">
-                                        <div class="leader__mengr-photo">
-                                            <img src="<?= $baseUrl ?>/img/meneger.png" alt="photo" class="object-fit">
-                                        </div>
-                                        <div class="leader__mengr-info">
-                                            <div class="title14 bold">Зайцев Пётр Ильич</div>
-                                            <div class="title12">Менеджер продаж</div>
-                                        </div>
+                        for ($i = 0; $i <= 4; $i++) {
+                            ?>
+                            <div class="leader__mengr-item">
+                                <div class="leader__meneger">
+                                    <div class="leader__mengr-photo">
+                                        <img src="<?= $baseUrl ?>/img/meneger.png" alt="photo" class="object-fit">
                                     </div>
-
-                                    <div class="leader__mengr-btns">
-                                        <img class="leader__edit-btn" src="<?= $baseUrl ?>/img/icon-svg/pencil-alt.svg" alt="icon">
-                                        <img class="leader__delete-btn" src="<?= $baseUrl ?>/img/icon-svg/trash.svg" alt="icon">
+                                    <div class="leader__mengr-info">
+                                        <div class="title14 bold">Зайцев Пётр Ильич</div>
+                                        <div class="title12">Менеджер продаж</div>
                                     </div>
                                 </div>
-                                <?
-                            }
+
+                                <div class="leader__mengr-btns">
+                                    <img class="leader__edit-btn" src="<?= $baseUrl ?>/img/icon-svg/pencil-alt.svg" alt="icon">
+                                    <img class="leader__delete-btn" src="<?= $baseUrl ?>/img/icon-svg/trash.svg" alt="icon">
+                                </div>
+                            </div>
+                            <?
+                        }
                         ?>
                     </div>
                     <div class="add-line">
