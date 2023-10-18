@@ -74,7 +74,7 @@ $this->title = 'Meneger';
                                 </div>
                                 <div class="leader__mengr-info">
                                     <div class="title14 bold">Зайцев Пётр Ильич</div>
-                                    <div class="title12">Менеджер продаж</div>
+                                    <div class="title12">Руководитель отдела продаж</div>
                                 </div>
                             </div>
 
@@ -90,42 +90,85 @@ $this->title = 'Meneger';
                     <div class="title18">Недвижимость</div>
                     <div class="meneger__houses">
                         <ul class="meneger__list">
-                            s    margin-top: 0;
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            margin-bottom: 0;
-                            s    margin-top: 0;
-                            s    margin-top: 0;
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            margin-bottom: 0;
-                            s    margin-top: 0;
-                            s    margin-top: 0;
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            margin-bottom: 0;
-                            s    margin-top: 0;
-                            s    margin-top: 0;
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            margin-bottom: 0;
-                            s    margin-top: 0;
-                            s    margin-top: 0;
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            margin-bottom: 0;
-                            s    margin-top: 0;
+                            <li class="meneger__house">
+                                <div class="meneger__plan">
+                                    <img src="<?= $baseUrl ?>/img/plan-for-list.png" alt="plan" class="object-fit">
+                                </div>
+                                <div class="meneger__info">
+                                    <div class="title14 bold">2-комн. квартира, 42,21 м² в ЖК «Gray (Грэй)»</div>
+                                    <div class="title12">Цена: 5 680 000 ₽</div>
+                                    <div class="title12">2-комнатная, 1.2 корпус</div>
+                                </div>
+                            </li>
+                            <li class="meneger__house">
+                                <div class="meneger__plan">
+                                    <img src="<?= $baseUrl ?>/img/plan-for-list.png" alt="plan" class="object-fit">
+                                </div>
+                                <div class="meneger__info">
+                                    <div class="title14 bold">2-комн. квартира, 42,21 м² в ЖК «Gray (Грэй)»</div>
+                                    <div class="title12">Цена: 5 680 000 ₽</div>
+                                    <div class="title12">2-комнатная, 1.2 корпус</div>
+                                </div>
+                            </li>
+                            <li class="meneger__house">
+                                <div class="meneger__plan">
+                                    <img src="<?= $baseUrl ?>/img/plan-for-list.png" alt="plan" class="object-fit">
+                                </div>
+                                <div class="meneger__info">
+                                    <div class="title14 bold">2-комн. квартира, 42,21 м² в ЖК «Gray (Грэй)»</div>
+                                    <div class="title12">Цена: 5 680 000 ₽</div>
+                                    <div class="title12">2-комнатная, 1.2 корпус</div>
+                                </div>
+                            </li>
+                            <li class="meneger__house">
+                                <div class="meneger__plan">
+                                    <img src="<?= $baseUrl ?>/img/plan-for-list.png" alt="plan" class="object-fit">
+                                </div>
+                                <div class="meneger__info">
+                                    <div class="title14 bold">2-комн. квартира, 42,21 м² в ЖК «Gray (Грэй)»</div>
+                                    <div class="title12">Цена: 5 680 000 ₽</div>
+                                    <div class="title12">2-комнатная, 1.2 корпус</div>
+                                </div>
+                            </li>
+                            <li class="meneger__house">
+                                <div class="meneger__plan">
+                                    <img src="<?= $baseUrl ?>/img/plan-for-list.png" alt="plan" class="object-fit">
+                                </div>
+                                <div class="meneger__info">
+                                    <div class="title14 bold">2-комн. квартира, 42,21 м² в ЖК «Gray (Грэй)»</div>
+                                    <div class="title12">Цена: 5 680 000 ₽</div>
+                                    <div class="title12">2-комнатная, 1.2 корпус</div>
+                                </div>
+                            </li>
+                            <li class="meneger__house">
+                                <div class="meneger__plan">
+                                    <img src="<?= $baseUrl ?>/img/plan-for-list.png" alt="plan" class="object-fit">
+                                </div>
+                                <div class="meneger__info">
+                                    <div class="title14 bold">2-комн. квартира, 42,21 м² в ЖК «Gray (Грэй)»</div>
+                                    <div class="title12">Цена: 5 680 000 ₽</div>
+                                    <div class="title12">2-комнатная, 1.2 корпус</div>
+                                </div>
+                            </li>
 
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="info-block leader__menegers">
+                    <div class="title18">Дополнительная информация</div>
+                    <div class="meneger__more-info">
+                        <div class="title14 regular">Достижения:</div>
+                        <ul>
+                            <li class="title14 regular">
+                                Стабильно выполнял поставленные плановые показатели:
+                                <ul>
+                                    <li class="title14 regular">ежегодный рост объема продаж на 10–15% за счет развития клиентской базы и расширения представленности продукции компании;</li>
+                                    <li class="title14 regular">рост активной клиентской базы на 40%;</li>
+                                    <li class="title14 regular">сокращение просроченной дебиторской задолженности с 30 до 10% за счет усиления контроля финансовой дисциплины клиентов.</li>
+                                </ul>
+                            </li>
+                            <li class="title14 regular">Выполнял функции наставника, обучил 3 менеджеров по продажам.</li>
                         </ul>
                     </div>
                 </div>

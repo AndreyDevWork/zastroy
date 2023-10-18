@@ -20,7 +20,45 @@
     margin-top: 0px;
     margin-bottom: 0;
     padding-left: 0;
-    min-height: 577px;
+    min-height: 377px;
+    list-style-type: none;
+    padding-right: 28px;
+  }
+
+  &__house {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    border-bottom: 1px dashed #EBEBEB;
+
+  }
+  &__plan {
+    width: 66px;
+    height: 66px;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    .title14 {
+      color: #344767;
+      line-height: 140%;
+    }
+    .title12 {
+      line-height: 140%;
+    }
+  }
+
+  &__more-info {
+    margin-top: 14px;
+    .title14 {
+      color: $gray-product;
+    }
+    ul {
+      list-style-type: disc;
+      margin-bottom: 0;
+    }
   }
 }
 
