@@ -151,7 +151,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="title13">Добавить поле</div>
                 </div>
             </div>
-            
+
 
         </div>
         <div class="info-block month">

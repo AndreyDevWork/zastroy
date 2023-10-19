@@ -2581,4 +2581,11 @@ body .container {
   margin-bottom: 0;
 }
 
+.pick-objects .catalog__info {
+  grid-template-columns: 70px 130px 130px 40px 95px 125px;
+  max-width: 832px;
+  width: 100%;
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=import.css.map */

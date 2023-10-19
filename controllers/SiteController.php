@@ -226,4 +226,9 @@ class SiteController extends Controller
         $baseUrl = \Yii::$app->request->baseUrl;
         return $this->render('my-data', ['baseUrl' => $baseUrl]);
     }
+    public function actionPickObject() {
+        $this->layout = 'left-side';
+        $baseUrl = \Yii::$app->request->baseUrl;
+        return $this->render('pick-objects', ['baseUrl' => $baseUrl]);
+    }
 }
