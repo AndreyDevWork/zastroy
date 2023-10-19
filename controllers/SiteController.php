@@ -220,4 +220,10 @@ class SiteController extends Controller
         $baseUrl = \Yii::$app->request->baseUrl;
         return $this->render('edit-leader', ['baseUrl' => $baseUrl, 'model' => $model,]);
     }
+
+    public function actionMyData() {
+        $this->layout = 'left-side';
+        $baseUrl = \Yii::$app->request->baseUrl;
+        return $this->render('my-data', ['baseUrl' => $baseUrl]);
+    }
 }
