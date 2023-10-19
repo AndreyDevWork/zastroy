@@ -1,0 +1,8 @@
+.response {
+  .department__columns {
+    grid-template-columns: 20px minmax(150px, 272px) minmax(160px, 215px) minmax(130px, 200px) minmax(130px, 230px) 110px 120px;
+  }
+  .department__row {
+    grid-template-columns: 20px minmax(150px, 272px) minmax(160px, 215px) minmax(130px, 200px) minmax(130px, 230px) 110px 120px;
+  }
+}
